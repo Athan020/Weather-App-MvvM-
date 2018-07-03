@@ -26,6 +26,27 @@ namespace OpenWeather.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxBind = global::OpenWeather.Droid.Resource.Attribute.MvxBind;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::OpenWeather.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxGroupItemTemplate = global::OpenWeather.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxItemTemplate = global::OpenWeather.Droid.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxLang = global::OpenWeather.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxSource = global::OpenWeather.Droid.Resource.Attribute.MvxSource;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxTemplate = global::OpenWeather.Droid.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Id.MvvmCrossTagId = global::OpenWeather.Droid.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Binding.Droid.Resource.Id.MvxBindingTagUnique = global::OpenWeather.Droid.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding = global::OpenWeather.Droid.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxBind = global::OpenWeather.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxLang = global::OpenWeather.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxControl = global::OpenWeather.Droid.Resource.Styleable.MvxControl;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxControl_MvxTemplate = global::OpenWeather.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView = global::OpenWeather.Droid.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::OpenWeather.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView = global::OpenWeather.Droid.Resource.Styleable.MvxImageView;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView_MvxSource = global::OpenWeather.Droid.Resource.Styleable.MvxImageView_MvxSource;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::OpenWeather.Droid.Resource.Styleable.MvxListView;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::OpenWeather.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::OpenWeather.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
 			global::MvvmCross.Resource.Attribute.MvxBind = global::OpenWeather.Droid.Resource.Attribute.MvxBind;
 			global::MvvmCross.Resource.Attribute.MvxDropDownItemTemplate = global::OpenWeather.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Resource.Attribute.MvxGroupItemTemplate = global::OpenWeather.Droid.Resource.Attribute.MvxGroupItemTemplate;
@@ -4055,6 +4076,9 @@ namespace OpenWeather.Droid
 			
 			// aapt resource value: 0x7f010194
 			public const int MvxLang = 2130772372;
+			
+			// aapt resource value: 0x7f010199
+			public const int MvxSource = 2130772377;
 			
 			// aapt resource value: 0x7f010195
 			public const int MvxTemplate = 2130772373;
@@ -10688,6 +10712,12 @@ namespace OpenWeather.Droid
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
+			
+			public static int[] MvxImageView = new int[] {
+					2130772377};
+			
+			// aapt resource value: 0
+			public const int MvxImageView_MvxSource = 0;
 			
 			public static int[] MvxListView = new int[] {
 					2130772374,

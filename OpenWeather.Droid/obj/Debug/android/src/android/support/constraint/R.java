@@ -36,9 +36,21 @@ public final class R {
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
+<p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
         public static int MvxBind=0x7f010193;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
@@ -52,9 +64,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
+<p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
         public static int MvxGroupItemTemplate=0x7f010198;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
@@ -68,9 +92,29 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
+<p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
          */
         public static int MvxLang=0x7f010194;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int MvxSource=0x7f010199;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
@@ -3614,7 +3658,7 @@ containing a value of this type.
         public static int action_mode_bar=0x7f090088;
         public static int action_mode_bar_stub=0x7f090087;
         public static int action_mode_close_button=0x7f09006b;
-        public static int action_settings=0x7f0900c4;
+        public static int action_settings=0x7f0900c6;
         public static int action_text=0x7f0900ad;
         public static int actions=0x7f0900bb;
         public static int activity_chooser_view_content=0x7f09006c;
@@ -3688,7 +3732,7 @@ containing a value of this type.
         public static int line3=0x7f090018;
         public static int listMode=0x7f09001f;
         public static int list_item=0x7f090070;
-        public static int masked=0x7f0900c3;
+        public static int masked=0x7f0900c5;
         public static int media_actions=0x7f0900b1;
         public static int message=0x7f0900c1;
         public static int middle=0x7f090033;
@@ -3756,6 +3800,8 @@ containing a value of this type.
         public static int submit_area=0x7f090096;
         public static int tabMode=0x7f090021;
         public static int tag_transition_group=0x7f090019;
+        public static int tbData=0x7f0900c3;
+        public static int tbName=0x7f0900c2;
         public static int text=0x7f09001a;
         public static int text2=0x7f09001b;
         public static int textSpacerNoButtons=0x7f090079;
@@ -3782,7 +3828,7 @@ containing a value of this type.
         public static int up=0x7f090009;
         public static int useLogo=0x7f090028;
         public static int view_offset_helper=0x7f090016;
-        public static int visible=0x7f0900c2;
+        public static int visible=0x7f0900c4;
         public static int withText=0x7f09003e;
         public static int wrap=0x7f09005d;
         public static int wrap_content=0x7f090030;
@@ -3827,42 +3873,44 @@ containing a value of this type.
         public static int abc_search_view=0x7f040018;
         public static int abc_select_dialog_material=0x7f040019;
         public static int activity_main=0x7f04001a;
-        public static int content_main=0x7f04001b;
-        public static int design_bottom_navigation_item=0x7f04001c;
-        public static int design_bottom_sheet_dialog=0x7f04001d;
-        public static int design_layout_snackbar=0x7f04001e;
-        public static int design_layout_snackbar_include=0x7f04001f;
-        public static int design_layout_tab_icon=0x7f040020;
-        public static int design_layout_tab_text=0x7f040021;
-        public static int design_menu_item_action_area=0x7f040022;
-        public static int design_navigation_item=0x7f040023;
-        public static int design_navigation_item_header=0x7f040024;
-        public static int design_navigation_item_separator=0x7f040025;
-        public static int design_navigation_item_subheader=0x7f040026;
-        public static int design_navigation_menu=0x7f040027;
-        public static int design_navigation_menu_item=0x7f040028;
-        public static int design_text_input_password_icon=0x7f040029;
-        public static int notification_action=0x7f04002a;
-        public static int notification_action_tombstone=0x7f04002b;
-        public static int notification_media_action=0x7f04002c;
-        public static int notification_media_cancel_action=0x7f04002d;
-        public static int notification_template_big_media=0x7f04002e;
-        public static int notification_template_big_media_custom=0x7f04002f;
-        public static int notification_template_big_media_narrow=0x7f040030;
-        public static int notification_template_big_media_narrow_custom=0x7f040031;
-        public static int notification_template_custom_big=0x7f040032;
-        public static int notification_template_icon_group=0x7f040033;
-        public static int notification_template_lines_media=0x7f040034;
-        public static int notification_template_media=0x7f040035;
-        public static int notification_template_media_custom=0x7f040036;
-        public static int notification_template_part_chronometer=0x7f040037;
-        public static int notification_template_part_time=0x7f040038;
-        public static int select_dialog_item_material=0x7f040039;
-        public static int select_dialog_multichoice_material=0x7f04003a;
-        public static int select_dialog_singlechoice_material=0x7f04003b;
-        public static int support_simple_spinner_dropdown_item=0x7f04003c;
-        public static int toolbar=0x7f04003d;
-        public static int tooltip=0x7f04003e;
+        public static int activity_weather_details=0x7f04001b;
+        public static int content_main=0x7f04001c;
+        public static int design_bottom_navigation_item=0x7f04001d;
+        public static int design_bottom_sheet_dialog=0x7f04001e;
+        public static int design_layout_snackbar=0x7f04001f;
+        public static int design_layout_snackbar_include=0x7f040020;
+        public static int design_layout_tab_icon=0x7f040021;
+        public static int design_layout_tab_text=0x7f040022;
+        public static int design_menu_item_action_area=0x7f040023;
+        public static int design_navigation_item=0x7f040024;
+        public static int design_navigation_item_header=0x7f040025;
+        public static int design_navigation_item_separator=0x7f040026;
+        public static int design_navigation_item_subheader=0x7f040027;
+        public static int design_navigation_menu=0x7f040028;
+        public static int design_navigation_menu_item=0x7f040029;
+        public static int design_text_input_password_icon=0x7f04002a;
+        public static int notification_action=0x7f04002b;
+        public static int notification_action_tombstone=0x7f04002c;
+        public static int notification_media_action=0x7f04002d;
+        public static int notification_media_cancel_action=0x7f04002e;
+        public static int notification_template_big_media=0x7f04002f;
+        public static int notification_template_big_media_custom=0x7f040030;
+        public static int notification_template_big_media_narrow=0x7f040031;
+        public static int notification_template_big_media_narrow_custom=0x7f040032;
+        public static int notification_template_custom_big=0x7f040033;
+        public static int notification_template_icon_group=0x7f040034;
+        public static int notification_template_lines_media=0x7f040035;
+        public static int notification_template_media=0x7f040036;
+        public static int notification_template_media_custom=0x7f040037;
+        public static int notification_template_part_chronometer=0x7f040038;
+        public static int notification_template_part_time=0x7f040039;
+        public static int select_dialog_item_material=0x7f04003a;
+        public static int select_dialog_multichoice_material=0x7f04003b;
+        public static int select_dialog_singlechoice_material=0x7f04003c;
+        public static int support_simple_spinner_dropdown_item=0x7f04003d;
+        public static int toolbar=0x7f04003e;
+        public static int tooltip=0x7f04003f;
+        public static int weather_list_item=0x7f040040;
     }
     public static final class menu {
         public static int menu_main=0x7f0f0000;
@@ -11591,6 +11639,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
+<p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
           @attr name android.support.constraint:MvxBind
         */
         public static int MvxBinding_MvxBind = 0;
@@ -11600,6 +11654,12 @@ containing a value of this type.
 
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
@@ -11632,6 +11692,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
+<p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
           @attr name android.support.constraint:MvxTemplate
         */
         public static int MvxControl_MvxTemplate = 0;
@@ -11659,9 +11725,42 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
+<p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
           @attr name android.support.constraint:MvxGroupItemTemplate
         */
         public static int MvxExpandableListView_MvxGroupItemTemplate = 0;
+        /** Attributes that can be used with a MvxImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MvxImageView_MvxSource android.support.constraint:MvxSource}</code></td><td></td></tr>
+           </table>
+           @see #MvxImageView_MvxSource
+         */
+        public static final int[] MvxImageView = {
+            0x7f010199
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.support.constraint.R.attr#MvxSource}
+          attribute's value can be found in the {@link #MvxImageView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android.support.constraint:MvxSource
+        */
+        public static int MvxImageView_MvxSource = 0;
         /** Attributes that can be used with a MvxListView.
            <p>Includes the following attributes:</p>
            <table>
@@ -11688,6 +11787,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
+<p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
           @attr name android.support.constraint:MvxDropDownItemTemplate
         */
         public static int MvxListView_MvxDropDownItemTemplate = 1;
@@ -11697,6 +11802,12 @@ containing a value of this type.
 
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form

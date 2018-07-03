@@ -256,30 +256,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Athandile\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/athandile/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Athandile\\source\\repos\\MvvM Task\\OpenWeather\\OpenWeather.core\\OpenWeather.core.csproj",
+      "projectUniqueName": "/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.core/OpenWeather.core.csproj",
       "projectName": "OpenWeather.core",
-      "projectPath": "C:\\Users\\Athandile\\source\\repos\\MvvM Task\\OpenWeather\\OpenWeather.core\\OpenWeather.core.csproj",
-      "packagesPath": "C:\\Users\\Athandile\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Athandile\\source\\repos\\MvvM Task\\OpenWeather\\OpenWeather.core\\obj\\",
+      "projectPath": "/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.core/OpenWeather.core.csproj",
+      "packagesPath": "/Users/athandile/.nuget/packages/",
+      "outputPath": "/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.core/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Athandile\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/athandile/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -296,19 +294,19 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "MvvmCross": {
-            "target": "Package",
-            "version": "[6.1.2, )"
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )",
+            "version": "2.0.1",
             "autoReferenced": true
+          },
+          "MvvmCross": {
+            "target": "Package",
+            "version": "6.1.2"
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[11.0.2, )"
+            "version": "11.0.2"
           }
         },
         "imports": [

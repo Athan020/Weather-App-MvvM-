@@ -1,9 +1,17 @@
-C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\bin\Debug\netstandard2.0\OpenWeather.core.deps.json
-C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\bin\Debug\netstandard2.0\OpenWeather.core.dll
-C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\bin\Debug\netstandard2.0\OpenWeather.core.pdb
-C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\obj\Debug\netstandard2.0\OpenWeather.core.csprojAssemblyReference.cache
-C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\obj\Debug\netstandard2.0\OpenWeather.core.csproj.CoreCompileInputs.cache
-C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\obj\Debug\netstandard2.0\OpenWeather.core.AssemblyInfoInputs.cache
-C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\obj\Debug\netstandard2.0\OpenWeather.core.AssemblyInfo.cs
-C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\obj\Debug\netstandard2.0\OpenWeather.core.dll
-C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\obj\Debug\netstandard2.0\OpenWeather.core.pdb
+C:/Users/Athandile/source/repos/MvvM Task/OpenWeather/OpenWeather.core/bin/Debug/netstandard2.0/OpenWeather.core.deps.json
+C:/Users/Athandile/source/repos/MvvM Task/OpenWeather/OpenWeather.core/bin/Debug/netstandard2.0/OpenWeather.core.dll
+C:/Users/Athandile/source/repos/MvvM Task/OpenWeather/OpenWeather.core/bin/Debug/netstandard2.0/OpenWeather.core.pdb
+C:/Users/Athandile/source/repos/MvvM Task/OpenWeather/OpenWeather.core/obj/Debug/netstandard2.0/OpenWeather.core.csprojAssemblyReference.cache
+C:/Users/Athandile/source/repos/MvvM Task/OpenWeather/OpenWeather.core/obj/Debug/netstandard2.0/OpenWeather.core.csproj.CoreCompileInputs.cache
+C:/Users/Athandile/source/repos/MvvM Task/OpenWeather/OpenWeather.core/obj/Debug/netstandard2.0/OpenWeather.core.AssemblyInfoInputs.cache
+C:/Users/Athandile/source/repos/MvvM Task/OpenWeather/OpenWeather.core/obj/Debug/netstandard2.0/OpenWeather.core.AssemblyInfo.cs
+C:/Users/Athandile/source/repos/MvvM Task/OpenWeather/OpenWeather.core/obj/Debug/netstandard2.0/OpenWeather.core.dll
+C:/Users/Athandile/source/repos/MvvM Task/OpenWeather/OpenWeather.core/obj/Debug/netstandard2.0/OpenWeather.core.pdb
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.core/bin/Debug/netstandard2.0/OpenWeather.core.deps.json
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.core/bin/Debug/netstandard2.0/OpenWeather.core.dll
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.core/bin/Debug/netstandard2.0/OpenWeather.core.pdb
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.core/obj/Debug/netstandard2.0/OpenWeather.core.csproj.CoreCompileInputs.cache
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.core/obj/Debug/netstandard2.0/OpenWeather.core.AssemblyInfoInputs.cache
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.core/obj/Debug/netstandard2.0/OpenWeather.core.AssemblyInfo.cs
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.core/obj/Debug/netstandard2.0/OpenWeather.core.dll
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.core/obj/Debug/netstandard2.0/OpenWeather.core.pdb

@@ -1,0 +1,16 @@
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhone/Debug/coremlc/_PartialAppManifest.items
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhone/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhone/Debug/optimized/
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhone/Debug/OpenWeather.iOS.csproj.CoreCompileInputs.cache
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/bin/iPhone/Debug/OpenWeather.iOS.exe
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/bin/iPhone/Debug/OpenWeather.iOS.pdb
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/bin/iPhone/Debug/MvvmCross.dll
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/bin/iPhone/Debug/OpenWeather.core.dll
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/bin/iPhone/Debug/OpenWeather.core.pdb
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/bin/iPhone/Debug/MvvmCross.xml
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhone/Debug/OpenWeather.iOS.exe
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhone/Debug/OpenWeather.iOS.pdb
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhone/Debug/OpenWeather.iOS.csprojResolveAssemblyReference.cache

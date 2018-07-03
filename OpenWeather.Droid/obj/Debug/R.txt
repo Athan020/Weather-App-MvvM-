@@ -20,6 +20,7 @@ int attr MvxDropDownItemTemplate 0x7f010197
 int attr MvxGroupItemTemplate 0x7f010198
 int attr MvxItemTemplate 0x7f010196
 int attr MvxLang 0x7f010194
+int attr MvxSource 0x7f010199
 int attr MvxTemplate 0x7f010195
 int attr actionBarDivider 0x7f010052
 int attr actionBarItemBackground 0x7f010053
@@ -2033,6 +2034,8 @@ int[] styleable MvxControl { 0x7f010195 }
 int styleable MvxControl_MvxTemplate 0
 int[] styleable MvxExpandableListView { 0x7f010198 }
 int styleable MvxExpandableListView_MvxGroupItemTemplate 0
+int[] styleable MvxImageView { 0x7f010199 }
+int styleable MvxImageView_MvxSource 0
 int[] styleable MvxListView { 0x7f010196, 0x7f010197 }
 int styleable MvxListView_MvxDropDownItemTemplate 1
 int styleable MvxListView_MvxItemTemplate 0

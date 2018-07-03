@@ -15,7 +15,7 @@ namespace OpenWeather.core.ViewModels
             _navigationService = navigationService;
             _weatherService = weatherService;
             ShowWeatherDetailsCommand = new MvxAsyncCommand(async () => await _navigationService.Navigate<WeatherDetailsViewModel>());
-            GetweatherCommand = new MvxAsyncCommand(async () => await _weatherService.FetchWeather("Cape Town"));
+          //  GetweatherCommand = new MvxAsyncCommand(async () => await _weatherService.FetchWeather("Cape Town"));
         }
 
         // Init and Start are important parts of MvvmCross' CIRS ViewModel lifecycle
