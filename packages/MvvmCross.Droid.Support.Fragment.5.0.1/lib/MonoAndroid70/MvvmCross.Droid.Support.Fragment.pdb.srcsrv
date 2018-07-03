@@ -1,0 +1,26 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/mvvmcross/mvvmcross/7e0ec60334b01e2c3a0e72d9dabe34a9b39eb343/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\Properties\AssemblyInfo.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/Properties/AssemblyInfo.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\EventSource\MvxBaseFragmentAdapter.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/EventSource/MvxBaseFragmentAdapter.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\EventSource\MvxBindingFragmentAdapter.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/EventSource/MvxBindingFragmentAdapter.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\EventSource\MvxEventSourceDialogFragment.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/EventSource/MvxEventSourceDialogFragment.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\EventSource\MvxEventSourceFragment.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/EventSource/MvxEventSourceFragment.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\EventSource\MvxEventSourceFragmentActivity.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/EventSource/MvxEventSourceFragmentActivity.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\EventSource\MvxEventSourceListFragment.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/EventSource/MvxEventSourceListFragment.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\MvxCachingFragmentActivity.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/MvxCachingFragmentActivity.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\MvxCachingFragmentPagerAdapter.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/MvxCachingFragmentPagerAdapter.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\MvxCachingFragmentStatePagerAdapter.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/MvxCachingFragmentStatePagerAdapter.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\MvxDialogFragment.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/MvxDialogFragment.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\MvxFragment.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/MvxFragment.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\MvxFragmentActivity.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/MvxFragmentActivity.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\MvxFragmentExtensions.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/MvxFragmentExtensions.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\MvxFragmentPagerAdapter.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/MvxFragmentPagerAdapter.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\MvxFragmentStatePagerAdapter.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/MvxFragmentStatePagerAdapter.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\MvxFragmentViewExtensionMethods.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/MvxFragmentViewExtensionMethods.cs
+D:\git\MvvmCross2\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.Fragment\MvxTabsFragmentActivity.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.Fragment/MvxTabsFragmentActivity.cs
+SRCSRV: end ------------------------------------------------

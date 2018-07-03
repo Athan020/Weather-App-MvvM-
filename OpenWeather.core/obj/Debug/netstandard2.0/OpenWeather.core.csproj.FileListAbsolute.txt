@@ -1,0 +1,9 @@
+C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\bin\Debug\netstandard2.0\OpenWeather.core.deps.json
+C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\bin\Debug\netstandard2.0\OpenWeather.core.dll
+C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\bin\Debug\netstandard2.0\OpenWeather.core.pdb
+C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\obj\Debug\netstandard2.0\OpenWeather.core.csprojAssemblyReference.cache
+C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\obj\Debug\netstandard2.0\OpenWeather.core.csproj.CoreCompileInputs.cache
+C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\obj\Debug\netstandard2.0\OpenWeather.core.AssemblyInfoInputs.cache
+C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\obj\Debug\netstandard2.0\OpenWeather.core.AssemblyInfo.cs
+C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\obj\Debug\netstandard2.0\OpenWeather.core.dll
+C:\Users\Athandile\source\repos\MvvM Task\OpenWeather\OpenWeather.core\obj\Debug\netstandard2.0\OpenWeather.core.pdb
