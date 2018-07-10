@@ -19,9 +19,8 @@ namespace OpenWeather.iOS.Views
         {
             base.ViewDidLoad();
 
-          //  var set = this.CreateBindingSet<MainView, MainViewModel>();
-
-
+            var set = this.CreateBindingSet<MainView, MainViewModel>();
+             
            
         }
     }

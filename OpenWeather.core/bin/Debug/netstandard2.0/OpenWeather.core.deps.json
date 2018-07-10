@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "86ab9653fdf89a016c42973f9c9aad978b1a3426"
+    "signature": "a002a557b146b0627982f27b56a343c122297708"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "OpenWeather.core/1.0.0": {
         "dependencies": {
+          "Acr.Settings": "9.0.0",
           "Acr.UserDialogs": "7.0.1",
           "MvvmCross": "6.1.2",
           "NETStandard.Library": "2.0.1",
@@ -16,6 +17,14 @@
         },
         "runtime": {
           "OpenWeather.core.dll": {}
+        }
+      },
+      "Acr.Settings/9.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Acr.Settings.dll": {}
         }
       },
       "Acr.UserDialogs/7.0.1": {
@@ -46,6 +55,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Acr.Settings/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SnWJrQildwWPfnhs+oxsRlvD5vgDF2+/Vs9EYptqRjyqPqzsDRW8xKxPXR3V1nVnuxKVVM8kybQajhF2A2BtCA==",
+      "path": "acr.settings/9.0.0",
+      "hashPath": "acr.settings.9.0.0.nupkg.sha512"
     },
     "Acr.UserDialogs/7.0.1": {
       "type": "package",

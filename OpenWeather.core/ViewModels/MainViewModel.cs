@@ -2,37 +2,64 @@
 using MvvmCross.Navigation;
 using MvvmCross.Commands;
 using OpenWeather.core.Services;
+using System.Threading.Tasks;
+using System;
 using OpenWeather.Core.Models;
+//using Acr.UserDialogs;
+
 
 namespace OpenWeather.core.ViewModels
 {
-    public class MainViewModel : MvxViewModel
+    public class MainViewModel:MvxViewModel
     {
         private readonly IMvxNavigationService _navigationService;
-        private IWeatherService _weatherService;
-        public MainViewModel(IMvxNavigationService navigationService, WeatherService weatherService)
+        private readonly IWeatherService _weatherService;
+        //private readonly IUserDialogs _userDialog;
+
+
+        public MainViewModel(IMvxNavigationService navigationService, IWeatherService weatherService)
         {
             _navigationService = navigationService;
             _weatherService = weatherService;
-            ShowWeatherDetailsCommand = new MvxAsyncCommand(async () => await _navigationService.Navigate<WeatherDetailsViewModel>());
-          //  GetweatherCommand = new MvxAsyncCommand(async () => await _weatherService.FetchWeather("Cape Town"));
+            //_userDialog = userDialogs;
+            GetweatherCommand = new MvxAsyncCommand(FetchWeather);
+
         }
 
-        // Init and Start are important parts of MvvmCross' CIRS ViewModel lifecycle
-        // Learn how to use Init and Start at https://github.com/MvvmCross/MvvmCross/wiki/view-model-lifecycle
-        public void Init()
+        public override Task Initialize()
         {
+            return base.Initialize();
         }
 
-        public override void Start()
-        {
-        }
-        public IMvxAsyncCommand ShowWeatherDetailsCommand { get; private set; }
+
         public IMvxAsyncCommand GetweatherCommand { get; private set; }
 
-        #region Properties
+       
+
+        private async Task FetchWeather()
+        {
+
+            Forecast forecast = new Forecast();
+            try
+            {
+                forecast = await _weatherService.FetchWeather(_cityName);
+            }
+            catch (Exception ex)
+            {
+                //var alert = _userDialog.AlertAsync(new AlertConfig
+                //{
+                //    Title = "Oops.. ",
+                //    Message = "There was a problem trying to fetch your weather",
+                //    OkText = "Ok"
+                //});
+                Console.WriteLine(ex.Message);
+            }
+            if (forecast != null) await _navigationService.Navigate<WeatherDetailsViewModel, Forecast>(forecast);
+
+        }
+
         public string _cityName = string.Empty;
-        public string cityName
+        public string CityName
         {
             get => _cityName;
             set
@@ -40,6 +67,7 @@ namespace OpenWeather.core.ViewModels
                 SetProperty(ref _cityName, value);
             }
         }
-        #endregion
+
+
     }
 }

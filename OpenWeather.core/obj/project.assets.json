@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Acr.Settings/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Acr.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Acr.Settings.dll": {}
+        }
+      },
       "Acr.UserDialogs/7.0.1": {
         "type": "package",
         "compile": {
@@ -56,6 +68,23 @@
     }
   },
   "libraries": {
+    "Acr.Settings/9.0.0": {
+      "sha512": "SnWJrQildwWPfnhs+oxsRlvD5vgDF2+/Vs9EYptqRjyqPqzsDRW8xKxPXR3V1nVnuxKVVM8kybQajhF2A2BtCA==",
+      "type": "package",
+      "path": "acr.settings/9.0.0",
+      "files": [
+        "acr.settings.9.0.0.nupkg.sha512",
+        "acr.settings.nuspec",
+        "lib/monoandroid70/Acr.Settings.dll",
+        "lib/monoandroid80/Acr.Settings.dll",
+        "lib/net462/Acr.Settings.dll",
+        "lib/net47/Acr.Settings.dll",
+        "lib/netstandard2.0/Acr.Settings.dll",
+        "lib/uap10.0/Acr.Settings.dll",
+        "lib/uap10.0/Acr.Settings.pri",
+        "lib/xamarinios10/Acr.Settings.dll"
+      ]
+    },
     "Acr.UserDialogs/7.0.1": {
       "sha512": "+eGbTgwaFPzcaRnMdnAK5pHA0eoeoxkhy80FNwGeewqvA+DM6fUPM9yMbrN2hw3rcuBaXd2ghy2Xq5XU7m8qkw==",
       "type": "package",
@@ -280,6 +309,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Acr.Settings >= 9.0.0",
       "Acr.UserDialogs >= 7.0.1",
       "MvvmCross >= 6.1.2",
       "NETStandard.Library >= 2.0.1",
@@ -342,6 +372,10 @@
           "Acr.UserDialogs": {
             "target": "Package",
             "version": "7.0.1"
+          },
+          "Acr.Settings": {
+            "target": "Package",
+            "version": "9.0.0"
           }
         },
         "imports": [
