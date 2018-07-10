@@ -15,10 +15,10 @@ namespace OpenWeather.core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-
-
+                
             Mvx.RegisterSingleton<IUserDialogs>(() => UserDialogs.Instance);
-           RegisterAppStart<MainViewModel>();
+
+            RegisterAppStart<MainViewModel>();
         }
     }
 }

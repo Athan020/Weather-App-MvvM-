@@ -107,6 +107,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "OpenWeather.Droid.dll" comes first in this list. */
 		"OpenWeather.Droid.dll",
+		"Acr.Settings.dll",
 		"Acr.UserDialogs.dll",
 		"AndHUD.dll",
 		"MvvmCross.dll",
