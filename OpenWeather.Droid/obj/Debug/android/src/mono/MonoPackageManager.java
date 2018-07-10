@@ -107,6 +107,8 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "OpenWeather.Droid.dll" comes first in this list. */
 		"OpenWeather.Droid.dll",
+		"Acr.UserDialogs.dll",
+		"AndHUD.dll",
 		"MvvmCross.dll",
 		"MvvmCross.Droid.Support.Core.UI.dll",
 		"MvvmCross.Droid.Support.Design.dll",
@@ -114,6 +116,7 @@ class MonoPackageManager_Resources {
 		"MvvmCross.Droid.Support.V7.AppCompat.dll",
 		"Newtonsoft.Json.dll",
 		"OpenWeather.core.dll",
+		"Plugin.CurrentActivity.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
