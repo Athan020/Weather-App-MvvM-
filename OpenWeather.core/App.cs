@@ -1,4 +1,6 @@
 ﻿using System;
+using Acr.UserDialogs;
+using MvvmCross;
 using MvvmCross.IoC;
 using MvvmCross.ViewModels;
 using OpenWeather.core.ViewModels;
@@ -10,10 +12,12 @@ namespace OpenWeather.core
         public override void Initialize()
         {
             CreatableTypes()
-                .EndingWith("Services")
+                .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
+
+            Mvx.RegisterSingleton<IUserDialogs>(() => UserDialogs.Instance);
            RegisterAppStart<MainViewModel>();
         }
     }

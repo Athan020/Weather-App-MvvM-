@@ -17,5 +17,6 @@ namespace OpenWeather.Droid.Views.activities
     public class WeatherDetailsActivity : BaseActivity<WeatherDetailsViewModel>
     {
         public override int ActivityLayoutId => Resource.Layout.activity_weather_details;
+        public override Activity Activity => this;
     }
 }

@@ -7,5 +7,8 @@ namespace OpenWeather.Droid.Views.activities
     public class MainActivity : BaseActivity<MainViewModel>
     {
         public override int ActivityLayoutId => Resource.Layout.activity_main;
+
+         public override Activity Activity => this;
+
     }
 }

@@ -14,39 +14,6 @@
           "lib/monoandroid81/MvvmCross.dll": {}
         }
       },
-      "MvvmCross.Binding/5.7.0": {
-        "type": "package",
-        "dependencies": {
-          "MvvmCross.Core": "[5.7.0]"
-        },
-        "frameworkAssemblies": [
-          "Mono.Android.Export"
-        ],
-        "compile": {
-          "lib/MonoAndroid/MvvmCross.Binding.Droid.dll": {},
-          "lib/MonoAndroid/MvvmCross.Binding.dll": {},
-          "lib/MonoAndroid/MvvmCross.Localization.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid/MvvmCross.Binding.Droid.dll": {},
-          "lib/MonoAndroid/MvvmCross.Binding.dll": {},
-          "lib/MonoAndroid/MvvmCross.Localization.dll": {}
-        }
-      },
-      "MvvmCross.Core/5.7.0": {
-        "type": "package",
-        "dependencies": {
-          "MvvmCross.Platform": "[5.7.0]"
-        },
-        "compile": {
-          "lib/MonoAndroid/MvvmCross.Core.dll": {},
-          "lib/MonoAndroid/MvvmCross.Droid.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid/MvvmCross.Core.dll": {},
-          "lib/MonoAndroid/MvvmCross.Droid.dll": {}
-        }
-      },
       "MvvmCross.Droid.Support.Core.UI/6.1.2": {
         "type": "package",
         "dependencies": {
@@ -118,17 +85,6 @@
         },
         "runtime": {
           "lib/monoandroid81/MvvmCross.Droid.Support.V7.AppCompat.dll": {}
-        }
-      },
-      "MvvmCross.Platform/5.7.0": {
-        "type": "package",
-        "compile": {
-          "lib/MonoAndroid/MvvmCross.Platform.Droid.dll": {},
-          "lib/MonoAndroid/MvvmCross.Platform.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid/MvvmCross.Platform.Droid.dll": {},
-          "lib/MonoAndroid/MvvmCross.Platform.dll": {}
         }
       },
       "Newtonsoft.Json/11.0.2": {
@@ -460,96 +416,6 @@
         "readme.txt"
       ]
     },
-    "MvvmCross.Binding/5.7.0": {
-      "sha512": "ndWpYu8+j75NM+ZSaOxFtimYAD7jDwatN8PInVwKJIvJLTP/PqFfHlw7OQ5uuVZRFJEXanPoazaV3cZQ5jO2Pg==",
-      "type": "package",
-      "path": "mvvmcross.binding/5.7.0",
-      "files": [
-        "lib/MonoAndroid/MvvmCross.Binding.Droid.dll",
-        "lib/MonoAndroid/MvvmCross.Binding.Droid.pdb",
-        "lib/MonoAndroid/MvvmCross.Binding.dll",
-        "lib/MonoAndroid/MvvmCross.Binding.pdb",
-        "lib/MonoAndroid/MvvmCross.Localization.dll",
-        "lib/MonoAndroid/MvvmCross.Localization.pdb",
-        "lib/Xamarin.Mac20/MvvmCross.Binding.Mac.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Binding.Mac.pdb",
-        "lib/Xamarin.Mac20/MvvmCross.Binding.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Binding.pdb",
-        "lib/Xamarin.Mac20/MvvmCross.Localization.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Localization.pdb",
-        "lib/Xamarin.iOS10/MvvmCross.Binding.dll",
-        "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll",
-        "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.pdb",
-        "lib/Xamarin.iOS10/MvvmCross.Binding.pdb",
-        "lib/Xamarin.iOS10/MvvmCross.Localization.dll",
-        "lib/Xamarin.iOS10/MvvmCross.Localization.pdb",
-        "lib/Xamarin.tvOS/MvvmCross.Binding.dll",
-        "lib/Xamarin.tvOS/MvvmCross.Binding.pdb",
-        "lib/Xamarin.tvOS/MvvmCross.Binding.tvOS.dll",
-        "lib/Xamarin.tvOS/MvvmCross.Localization.dll",
-        "lib/Xamarin.tvOS/MvvmCross.Localization.pdb",
-        "lib/dotnet/MvvmCross.Binding.dll",
-        "lib/dotnet/MvvmCross.Binding.pdb",
-        "lib/dotnet/MvvmCross.Localization.dll",
-        "lib/dotnet/MvvmCross.Localization.pdb",
-        "lib/net45/MvvmCross.Binding.Wpf.dll",
-        "lib/net45/MvvmCross.Binding.Wpf.pdb",
-        "lib/net45/MvvmCross.Binding.dll",
-        "lib/net45/MvvmCross.Binding.pdb",
-        "lib/net45/MvvmCross.Localization.dll",
-        "lib/net45/MvvmCross.Localization.pdb",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Binding.dll",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Binding.pdb",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Localization.dll",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Localization.pdb",
-        "lib/uap10.0/MvvmCross.Binding.Uwp.dll",
-        "lib/uap10.0/MvvmCross.Binding.Uwp.pdb",
-        "lib/uap10.0/MvvmCross.Binding.Uwp.pri",
-        "lib/uap10.0/MvvmCross.Binding.dll",
-        "lib/uap10.0/MvvmCross.Binding.pdb",
-        "lib/uap10.0/MvvmCross.Localization.dll",
-        "lib/uap10.0/MvvmCross.Localization.pdb",
-        "mvvmcross.binding.5.7.0.nupkg.sha512",
-        "mvvmcross.binding.nuspec"
-      ]
-    },
-    "MvvmCross.Core/5.7.0": {
-      "sha512": "PC2aLSm61hnsLOau/qgfDPChGpqIiY8QVuV8wcaTPz0e6WgTEVO1rPxXwpkNuhod55hhMl3dFgFofcRwcI2x3g==",
-      "type": "package",
-      "path": "mvvmcross.core/5.7.0",
-      "files": [
-        "lib/MonoAndroid/MvvmCross.Core.dll",
-        "lib/MonoAndroid/MvvmCross.Core.pdb",
-        "lib/MonoAndroid/MvvmCross.Droid.dll",
-        "lib/MonoAndroid/MvvmCross.Droid.pdb",
-        "lib/Xamarin.Mac20/MvvmCross.Core.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Core.pdb",
-        "lib/Xamarin.Mac20/MvvmCross.Mac.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Mac.pdb",
-        "lib/Xamarin.iOS10/MvvmCross.Core.dll",
-        "lib/Xamarin.iOS10/MvvmCross.Core.pdb",
-        "lib/Xamarin.iOS10/MvvmCross.iOS.dll",
-        "lib/Xamarin.iOS10/MvvmCross.iOS.pdb",
-        "lib/Xamarin.tvOS/MvvmCross.Core.dll",
-        "lib/Xamarin.tvOS/MvvmCross.Core.pdb",
-        "lib/Xamarin.tvOS/MvvmCross.tvOS.dll",
-        "lib/dotnet/MvvmCross.Core.dll",
-        "lib/dotnet/MvvmCross.Core.pdb",
-        "lib/net45/MvvmCross.Core.dll",
-        "lib/net45/MvvmCross.Core.pdb",
-        "lib/net45/MvvmCross.Wpf.dll",
-        "lib/net45/MvvmCross.Wpf.pdb",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Core.dll",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Core.pdb",
-        "lib/uap10.0/MvvmCross.Core.dll",
-        "lib/uap10.0/MvvmCross.Core.pdb",
-        "lib/uap10.0/MvvmCross.Uwp.dll",
-        "lib/uap10.0/MvvmCross.Uwp.pdb",
-        "lib/uap10.0/MvvmCross.Uwp.pri",
-        "mvvmcross.core.5.7.0.nupkg.sha512",
-        "mvvmcross.core.nuspec"
-      ]
-    },
     "MvvmCross.Droid.Support.Core.UI/6.1.2": {
       "sha512": "ajKu67NJhkmkhFOWrAQTsz1kEPMhlhPguuexHE9dnuY2ZI2oTbaDXgUbdBqauvW9PNCPXFT+iY4SH1SCVEM5fQ==",
       "type": "package",
@@ -592,43 +458,6 @@
         "lib/monoandroid81/MvvmCross.Droid.Support.V7.AppCompat.xml",
         "mvvmcross.droid.support.v7.appcompat.6.1.2.nupkg.sha512",
         "mvvmcross.droid.support.v7.appcompat.nuspec"
-      ]
-    },
-    "MvvmCross.Platform/5.7.0": {
-      "sha512": "0J0Rzk3TisxYswq2aDEfNfdfl5X92399TmM8X9L828e36rqXK0z+OFTmwn7ViMqC9d7Cqroz4gVbkxThHfHEng==",
-      "type": "package",
-      "path": "mvvmcross.platform/5.7.0",
-      "files": [
-        "lib/MonoAndroid/MvvmCross.Platform.Droid.dll",
-        "lib/MonoAndroid/MvvmCross.Platform.Droid.pdb",
-        "lib/MonoAndroid/MvvmCross.Platform.dll",
-        "lib/MonoAndroid/MvvmCross.Platform.pdb",
-        "lib/Xamarin.Mac20/MvvmCross.Platform.Mac.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Platform.Mac.pdb",
-        "lib/Xamarin.Mac20/MvvmCross.Platform.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Platform.pdb",
-        "lib/Xamarin.iOS10/MvvmCross.Platform.dll",
-        "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll",
-        "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.pdb",
-        "lib/Xamarin.iOS10/MvvmCross.Platform.pdb",
-        "lib/Xamarin.tvOS/MvvmCross.Platform.dll",
-        "lib/Xamarin.tvOS/MvvmCross.Platform.pdb",
-        "lib/Xamarin.tvOS/MvvmCross.Platform.tvOS.dll",
-        "lib/dotnet/MvvmCross.Platform.dll",
-        "lib/dotnet/MvvmCross.Platform.pdb",
-        "lib/net45/MvvmCross.Platform.Wpf.dll",
-        "lib/net45/MvvmCross.Platform.Wpf.pdb",
-        "lib/net45/MvvmCross.Platform.dll",
-        "lib/net45/MvvmCross.Platform.pdb",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Platform.dll",
-        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Platform.pdb",
-        "lib/uap10.0/MvvmCross.Platform.Uwp.dll",
-        "lib/uap10.0/MvvmCross.Platform.Uwp.pdb",
-        "lib/uap10.0/MvvmCross.Platform.Uwp.pri",
-        "lib/uap10.0/MvvmCross.Platform.dll",
-        "lib/uap10.0/MvvmCross.Platform.pdb",
-        "mvvmcross.platform.5.7.0.nupkg.sha512",
-        "mvvmcross.platform.nuspec"
       ]
     },
     "Newtonsoft.Json/11.0.2": {
@@ -909,7 +738,6 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
       "MvvmCross >= 6.1.2",
-      "MvvmCross.Binding >= 5.7.0",
       "MvvmCross.Droid.Support.V7.AppCompat >= 6.1.2",
       "OpenWeather.core >= 1.0.0",
       "Xamarin.Android.Support.Constraint.Layout >= 1.1.0",
@@ -965,10 +793,6 @@
           "Xamarin.Android.Support.Design": {
             "target": "Package",
             "version": "27.0.2.1"
-          },
-          "MvvmCross.Binding": {
-            "target": "Package",
-            "version": "5.7.0"
           }
         }
       }

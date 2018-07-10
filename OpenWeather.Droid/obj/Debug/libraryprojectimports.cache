@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
-    <Jar>obj/Debug/lp/15/jl/arch-core-common.jar</Jar>
-    <Jar>obj/Debug/lp/16/jl/arch-lifecycle-common.jar</Jar>
-    <Jar>obj/Debug/lp/19/jl/support-annotations.jar</Jar>
-    <Jar>obj/Debug/lp/22/jl/constraint-layout-solver.jar</Jar>
     <Jar>/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj/Debug/lp/15/jl/arch-core-common.jar</Jar>
     <Jar>/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj/Debug/lp/16/jl/arch-lifecycle-common.jar</Jar>
     <Jar>/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj/Debug/lp/17/jl/bin/classes.jar</Jar>
@@ -24,7 +20,6 @@
     <Jar>/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj/Debug/lp/31/jl/bin/classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj/Debug/lp/1/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj/Debug/lp/3/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj/Debug/lp/6/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj/Debug/lp/8/jl/res</ResolvedResourceDirectory>
@@ -37,7 +32,6 @@
     <ResolvedResourceDirectory>/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj/Debug/lp/30/jl/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj/Debug/lp/1/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/3/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/6/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/8/jl/assets</ResolvedAssetDirectory>
@@ -45,7 +39,6 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj/Debug/lp/1.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj/Debug/lp/3.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj/Debug/lp/6.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj/Debug/lp/8.stamp</ResolvedResourceDirectoryStamp>

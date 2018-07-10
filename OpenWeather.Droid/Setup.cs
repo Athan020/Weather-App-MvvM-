@@ -4,6 +4,7 @@ using Android.Runtime;
 using MvvmCross.Platforms.Android.Core;
 using MvvmCross.Platforms.Android.Views;
 using OpenWeather.core;
+using Plugin.CurrentActivity;
 
 namespace OpenWeather.Droid
 {
@@ -13,6 +14,12 @@ namespace OpenWeather.Droid
         public Setup(IntPtr javaReference,JniHandleOwnership transfer)
                : base(javaReference,transfer)
         {
+        }
+
+        public override void OnCreate()
+        {
+            base.OnCreate();
+            CrossCurrentActivity.Current.Init(this);
         }
     }
 }

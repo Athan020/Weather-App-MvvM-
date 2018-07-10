@@ -9,7 +9,7 @@ namespace OpenWeather.core.Services
    public interface IWeatherService
     {
 
-        Task<Forecast> FetchWeather(String query);
+         Task<Forecast> FetchWeather(String query);
 
        // string GetWindRating(double windspeed);
 

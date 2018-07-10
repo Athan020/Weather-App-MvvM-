@@ -1,14 +1,17 @@
-﻿<Properties StartupConfiguration="{101E3060-8799-4119-8A7A-4F86A01C0C84}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="OpenWeather.core/ViewModels/MainViewModel.cs">
+﻿<Properties StartupConfiguration="{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OpenWeather.core/App.cs">
     <Files>
-      <File FileName="packages/MvvmCross.6.1.2/readme.txt" Line="56" Column="130" />
-      <File FileName="OpenWeather.core/ViewModels/MainViewModel.cs" Line="18" Column="14" />
-      <File FileName="../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/11.12.0.4/lib/msbuild/iOS/Xamarin.iOS.Common.targets" Line="665" Column="11" />
-      <File FileName="OpenWeather.iOS/Info.plist" />
-      <File FileName="OpenWeather.iOS/Main.cs" Line="12" Column="1" />
-      <File FileName="OpenWeather.iOS/packages.config" Line="1" Column="1" />
-      <File FileName="OpenWeather.iOS/Main.storyboard" />
-      <File FileName="OpenWeather.core/ViewModels/WeatherDetailsViewModel.cs" Line="1" Column="1" />
+      <File FileName="packages/MvvmCross.6.1.2/readme.txt" Line="42" Column="11" />
+      <File FileName="Source Not Available" />
+      <File FileName="OpenWeather.Droid/Views/activities/BaseActivity.cs" Line="21" Column="34" />
+      <File FileName="OpenWeather.Droid/Views/activities/MainActivity.cs" Line="11" Column="9" />
+      <File FileName="../../.nuget/packages/plugin.currentactivity/2.1.0.4/readme.txt" Line="13" Column="31" />
+      <File FileName="OpenWeather.Droid/Setup.cs" Line="26" Column="1" />
+      <File FileName="OpenWeather.Droid/Views/activities/WeatherDetailsActivity.cs" Line="22" Column="2" />
+      <File FileName="OpenWeather.core/Models/Forecast.cs" Line="20" Column="18" />
+      <File FileName="OpenWeather.core/ViewModels/MainViewModel.cs" Line="56" Column="14" />
+      <File FileName="OpenWeather.core/ViewModels/WeatherDetailsViewModel.cs" Line="104" Column="14" />
+      <File FileName="OpenWeather.core/App.cs" Line="20" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -16,7 +19,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.OpenWeather.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AA76EB43-913F-4A52-B244-FEA228D970C3" automaticSigning="False" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.OpenWeather.Droid PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.OpenWeather.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="AppTheme" />
 </Properties>

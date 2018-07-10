@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "ddb35057fff03cd158efe6cb50304c8ee753068a"
+    "signature": "86ab9653fdf89a016c42973f9c9aad978b1a3426"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,12 +9,18 @@
     ".NETStandard,Version=v2.0/": {
       "OpenWeather.core/1.0.0": {
         "dependencies": {
+          "Acr.UserDialogs": "7.0.1",
           "MvvmCross": "6.1.2",
           "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "OpenWeather.core.dll": {}
+        }
+      },
+      "Acr.UserDialogs/7.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -40,6 +46,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Acr.UserDialogs/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+eGbTgwaFPzcaRnMdnAK5pHA0eoeoxkhy80FNwGeewqvA+DM6fUPM9yMbrN2hw3rcuBaXd2ghy2Xq5XU7m8qkw==",
+      "path": "acr.userdialogs/7.0.1",
+      "hashPath": "acr.userdialogs.7.0.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

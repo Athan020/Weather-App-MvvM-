@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
@@ -132,13 +131,19 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\sunny.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\sunny.imageset\sunny.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
-    <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="Views\MainView.xib" />
+    <InterfaceDefinition Include="WeatherViewController.xib" />
+    <InterfaceDefinition Include="Views\WeatherView.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -148,11 +153,13 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="ViewController.cs" />
-    <Compile Include="ViewController.designer.cs">
-      <DependentUpon>ViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="Setup.cs" />
+    <Compile Include="Views\MainView.cs" />
+    <Compile Include="WeatherViewController.cs" />
+    <Compile Include="WeatherViewController.designer.cs">
+      <DependentUpon>WeatherViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WeatherView.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OpenWeather.core\OpenWeather.core.csproj">

@@ -13,6 +13,10 @@ namespace OpenWeather.iOS
     public class AppDelegate : MvxApplicationDelegate<MvxIosSetup<core.App>, core.App>
 	{
         
+        public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
+        {
+            return base.FinishedLaunching(application, launchOptions);
+        }
 	}
 }
 

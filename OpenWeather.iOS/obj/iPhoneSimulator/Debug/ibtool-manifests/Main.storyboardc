@@ -7,6 +7,127 @@
 	<key>com.apple.ibtool.document.notices</key>
 	<dict/>
 	<key>com.apple.ibtool.document.warnings</key>
-	<dict/>
+	<dict>
+		<key>J69-ke-udj</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>J69-ke-udj</string>
+				</array>
+				<key>message</key>
+				<string>Prototype table cells must have reuse identifiers</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>Qca-Yn-LcE</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>Qca-Yn-LcE</string>
+				</array>
+				<key>message</key>
+				<string>Prototype table cells must have reuse identifiers</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>TWf-5C-qiD</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>TWf-5C-qiD</string>
+				</array>
+				<key>message</key>
+				<string>Prototype table cells must have reuse identifiers</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>W7W-jL-ETt</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>W7W-jL-ETt</string>
+				</array>
+				<key>message</key>
+				<string>Prototype table cells must have reuse identifiers</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>fei-8u-Rd7</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>fei-8u-Rd7</string>
+				</array>
+				<key>message</key>
+				<string>Prototype table cells must have reuse identifiers</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>mri-Ve-Ymw</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>mri-Ve-Ymw</string>
+				</array>
+				<key>message</key>
+				<string>Prototype table cells must have reuse identifiers</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>qjj-g4-Og1</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>qjj-g4-Og1</string>
+				</array>
+				<key>message</key>
+				<string>Prototype table cells must have reuse identifiers</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>x2h-0C-kaL</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>x2h-0C-kaL</string>
+				</array>
+				<key>message</key>
+				<string>Prototype table cells must have reuse identifiers</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>
