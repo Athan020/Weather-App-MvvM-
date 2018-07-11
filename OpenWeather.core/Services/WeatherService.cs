@@ -17,20 +17,22 @@ namespace OpenWeather.core.Services
             var uri = new Uri(Constants.baseUrl + query + Constants.key);
             Forecast forecast = new Forecast();
 
-            var response = await http.GetAsync(uri).ConfigureAwait(false);
-
-            if (response.IsSuccessStatusCode)
+            using (var httpClient = new HttpClient())
             {
-                var JsonResponse = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
-                if (!string.IsNullOrWhiteSpace(JsonResponse))
+                var response = await http.GetAsync(uri).ConfigureAwait(false);
+                if (response.IsSuccessStatusCode)
                 {
-                    forecast = JsonConvert.DeserializeObject<Forecast>(JsonResponse);
+                    var JsonResponse = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+                    if (!string.IsNullOrWhiteSpace(JsonResponse))
+                    {
+                        forecast = JsonConvert.DeserializeObject<Forecast>(JsonResponse);
 
+                        Console.WriteLine(JsonResponse);
 
+                    }
                 }
-            }
-            Console.WriteLine(forecast);
-            return forecast;
+                return forecast;
+            }    
         }
 
 

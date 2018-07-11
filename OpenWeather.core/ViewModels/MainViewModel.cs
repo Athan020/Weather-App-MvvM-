@@ -22,7 +22,7 @@ namespace OpenWeather.core.ViewModels
             _navigationService = navigationService;
             _weatherService = weatherService;
             //_userDialog = userDialogs;
-            GetweatherCommand = new MvxAsyncCommand(FetchWeather);
+          //  GetweatherCommand = new MvxAsyncCommand(FetchWeather);
 
         }
 
@@ -32,39 +32,52 @@ namespace OpenWeather.core.ViewModels
         }
 
 
-        public IMvxAsyncCommand GetweatherCommand { get; private set; }
+        public MvxAsyncCommand getWeatherCommand;
+
+        public IMvxAsyncCommand GetweatherCommand {
+            get
+            {
+                return getWeatherCommand ?? (getWeatherCommand = new MvxAsyncCommand(async () => await FetchWeather()));
+            }
+        }
 
        
 
         private async Task FetchWeather()
         {
 
-            Forecast forecast = new Forecast();
+            var forecast = new Forecast();
+            Console.WriteLine("Got here ", CityName," yah");
+
             try
             {
-                forecast = await _weatherService.FetchWeather(_cityName);
-            }
+                forecast = await _weatherService.FetchWeather(CityName);
+           }
             catch (Exception ex)
             {
-                //var alert = _userDialog.AlertAsync(new AlertConfig
-                //{
-                //    Title = "Oops.. ",
-                //    Message = "There was a problem trying to fetch your weather",
-                //    OkText = "Ok"
-                //});
-                Console.WriteLine(ex.Message);
+           //     var alert = _userDialog.AlertAsync(new AlertConfig
+            //    {
+             //       Title = "Oops.. ",
+              //      Message = "There was a problem trying to fetch your weather",
+               //     OkText = "Ok"
+              // });
+               Console.WriteLine(ex.Message);
             }
-            if (forecast != null) await _navigationService.Navigate<WeatherDetailsViewModel, Forecast>(forecast);
+            Console.WriteLine(forecast.Base.ToString());
+           if (forecast != null) await _navigationService.Navigate<WeatherDetailsViewModel, Forecast>(forecast);
 
         }
 
         public string _cityName = string.Empty;
         public string CityName
         {
-            get => _cityName;
+            get {
+                return _cityName;
+            }
             set
             {
-                SetProperty(ref _cityName, value);
+                _cityName = value;
+                RaisePropertyChanged(() => CityName);
             }
         }
 

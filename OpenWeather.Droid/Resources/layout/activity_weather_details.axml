@@ -19,6 +19,7 @@
         android:layout_marginTop="48dp"
         android:text="@string/weather_in_cape_town_za"
         android:textSize="18sp"
+        app:MvxBind="Text WeatherLocation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.18"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,6 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        app:MvxBind="ImageSource WeatherIconUrl"
         android:contentDescription="@string/icon_for_weather"
         app:layout_constraintStart_toStartOf="@+id/weather_location"
         app:layout_constraintTop_toBottomOf="@+id/weather_location"
@@ -72,7 +74,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/forecast"
         app:layout_constraintTop_toBottomOf="@+id/forecast" />
-    <Mvx.MvxListView
+    <MvxListView
         android:id="@+id/listView"
         android:layout_width="0dp"
         android:layout_height="342dp"
@@ -84,6 +86,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
+        app:MvxItemTemplate="@layout/weather_list_item"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/time_stamp" />
 </android.support.constraint.ConstraintLayout>

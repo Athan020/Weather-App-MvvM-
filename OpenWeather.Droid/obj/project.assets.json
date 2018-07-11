@@ -2,6 +2,58 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Acr.Settings/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.1"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "System.Runtime"
+        ],
+        "compile": {
+          "lib/monoandroid80/Acr.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid80/Acr.Settings.dll": {}
+        }
+      },
+      "Acr.UserDialogs/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "AndHUD": "1.2.0",
+          "Xamarin.Android.Support.Design": "26.1.0.1"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Collections",
+          "System.Core",
+          "System.IdentityModel",
+          "System.Net.Http",
+          "System.Runtime",
+          "System.Runtime.Serialization",
+          "System.Threading.Tasks",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/monoandroid80/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid80/Acr.UserDialogs.dll": {}
+        }
+      },
+      "AndHUD/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/AndHUD.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/AndHUD.dll": {}
+        }
+      },
       "MvvmCross/6.1.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -94,6 +146,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.CurrentActivity/2.1.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
         }
       },
       "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
@@ -372,6 +436,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.Settings": "9.0.0",
+          "Acr.UserDialogs": "7.0.1",
           "MvvmCross": "6.1.2",
           "Newtonsoft.Json": "11.0.2"
         },
@@ -385,6 +451,54 @@
     }
   },
   "libraries": {
+    "Acr.Settings/9.0.0": {
+      "sha512": "SnWJrQildwWPfnhs+oxsRlvD5vgDF2+/Vs9EYptqRjyqPqzsDRW8xKxPXR3V1nVnuxKVVM8kybQajhF2A2BtCA==",
+      "type": "package",
+      "path": "acr.settings/9.0.0",
+      "files": [
+        "acr.settings.9.0.0.nupkg.sha512",
+        "acr.settings.nuspec",
+        "lib/monoandroid70/Acr.Settings.dll",
+        "lib/monoandroid80/Acr.Settings.dll",
+        "lib/net462/Acr.Settings.dll",
+        "lib/net47/Acr.Settings.dll",
+        "lib/netstandard2.0/Acr.Settings.dll",
+        "lib/uap10.0/Acr.Settings.dll",
+        "lib/uap10.0/Acr.Settings.pri",
+        "lib/xamarinios10/Acr.Settings.dll"
+      ]
+    },
+    "Acr.UserDialogs/7.0.1": {
+      "sha512": "+eGbTgwaFPzcaRnMdnAK5pHA0eoeoxkhy80FNwGeewqvA+DM6fUPM9yMbrN2hw3rcuBaXd2ghy2Xq5XU7m8qkw==",
+      "type": "package",
+      "path": "acr.userdialogs/7.0.1",
+      "files": [
+        "acr.userdialogs.7.0.1.nupkg.sha512",
+        "acr.userdialogs.nuspec",
+        "lib/monoandroid70/Acr.UserDialogs.dll",
+        "lib/monoandroid80/Acr.UserDialogs.dll",
+        "lib/netstandard2.0/Acr.UserDialogs.dll",
+        "lib/uap10.0.16299/Acr.UserDialogs.dll",
+        "lib/uap10.0.16299/Acr.UserDialogs.pri",
+        "lib/uap10.0.16299/Acr.UserDialogs/Acr.UserDialogs.xr.xml",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/ActionSheetContentDialog.xaml",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/DatePickerControl.xaml",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/LoginContentDialog.xaml",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/ProgressContentDialog.xaml",
+        "lib/uap10.0.16299/Acr.UserDialogs/Platforms/Uwp/TimePickerControl.xaml",
+        "lib/xamarinios10/Acr.UserDialogs.dll"
+      ]
+    },
+    "AndHUD/1.2.0": {
+      "sha512": "EfAMAEwupi2STP/xyvqRSKHmCoJA3HG7He0cv1qKAoFi7NWvmJkLqlZS7lwYtNYQ37gb1T5fIfvMJjNJAZ/TEQ==",
+      "type": "package",
+      "path": "andhud/1.2.0",
+      "files": [
+        "andhud.1.2.0.nupkg.sha512",
+        "andhud.nuspec",
+        "lib/MonoAndroid/AndHUD.dll"
+      ]
+    },
     "MvvmCross/6.1.2": {
       "sha512": "e0Tm2D+cGHSx0JwYcN2iqm+y9LKJiBO3zJHaKEdMRBVw8ypxNXmU/+HkOLUHVJpPw6/cv8GC9tKtpF9Nr7JkPQ==",
       "type": "package",
@@ -486,6 +600,18 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.11.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "Plugin.CurrentActivity/2.1.0.4": {
+      "sha512": "m8xaXvXUzBSqP6xRe5PeIG347WxsG/VWrZta7MnPpSvNuPf0RLB/S49UCCQyBKSsfu053+apvYm14BC7GU6Zzg==",
+      "type": "package",
+      "path": "plugin.currentactivity/2.1.0.4",
+      "files": [
+        "lib/monoandroid44/Plugin.CurrentActivity.dll",
+        "lib/monoandroid44/Plugin.CurrentActivity.xml",
+        "plugin.currentactivity.2.1.0.4.nupkg.sha512",
+        "plugin.currentactivity.nuspec",
+        "readme.txt"
       ]
     },
     "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
@@ -737,39 +863,46 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "Acr.UserDialogs >= 7.0.1",
+      "AndHUD >= 1.2.0",
       "MvvmCross >= 6.1.2",
       "MvvmCross.Droid.Support.V7.AppCompat >= 6.1.2",
+      "Newtonsoft.Json >= 11.0.2",
       "OpenWeather.core >= 1.0.0",
+      "Plugin.CurrentActivity >= 2.1.0.4",
       "Xamarin.Android.Support.Constraint.Layout >= 1.1.0",
       "Xamarin.Android.Support.Design >= 27.0.2.1"
     ]
   },
   "packageFolders": {
-    "/Users/athandile/.nuget/packages/": {}
+    "C:\\Users\\Athandile\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/OpenWeather.Droid.csproj",
+      "projectUniqueName": "C:\\Users\\Athandile\\Documents\\GitHub\\Weather-App-MvvM-\\OpenWeather.Droid\\OpenWeather.Droid.csproj",
       "projectName": "OpenWeather.Droid",
-      "projectPath": "/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/OpenWeather.Droid.csproj",
-      "packagesPath": "/Users/athandile/.nuget/packages/",
-      "outputPath": "/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.Droid/obj",
+      "projectPath": "C:\\Users\\Athandile\\Documents\\GitHub\\Weather-App-MvvM-\\OpenWeather.Droid\\OpenWeather.Droid.csproj",
+      "packagesPath": "C:\\Users\\Athandile\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Athandile\\Documents\\GitHub\\Weather-App-MvvM-\\OpenWeather.Droid\\obj\\",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/athandile/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Athandile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.core/OpenWeather.core.csproj": {
-              "projectPath": "/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.core/OpenWeather.core.csproj"
+            "C:\\Users\\Athandile\\Documents\\GitHub\\Weather-App-MvvM-\\OpenWeather.core\\OpenWeather.core.csproj": {
+              "projectPath": "C:\\Users\\Athandile\\Documents\\GitHub\\Weather-App-MvvM-\\OpenWeather.core\\OpenWeather.core.csproj"
             }
           }
         }
@@ -778,21 +911,37 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "Acr.UserDialogs": {
+            "target": "Package",
+            "version": "[7.0.1, )"
+          },
+          "AndHUD": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
           "MvvmCross": {
             "target": "Package",
-            "version": "6.1.2"
+            "version": "[6.1.2, )"
           },
           "MvvmCross.Droid.Support.V7.AppCompat": {
             "target": "Package",
-            "version": "6.1.2"
+            "version": "[6.1.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.2, )"
+          },
+          "Plugin.CurrentActivity": {
+            "target": "Package",
+            "version": "[2.1.0.4, )"
           },
           "Xamarin.Android.Support.Constraint.Layout": {
             "target": "Package",
-            "version": "1.1.0"
+            "version": "[1.1.0, )"
           },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
           }
         }
       }

@@ -1,11 +1,8 @@
 ﻿using Android.OS;
-using Android.App;
-using Android.Support.V7.Widget;
 using MvvmCross.ViewModels;
-using MvvmCross;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using Acr.UserDialogs;
-using Plugin.CurrentActivity;
+
 namespace OpenWeather.Droid.Views.activities
 {
     public abstract class BaseActivity<TViewModel>:MvxAppCompatActivity<TViewModel>

@@ -9,13 +9,15 @@ using System;
 
 namespace OpenWeather.core.ViewModels
 {
-    public class WeatherDetailsViewModel : MvxViewModel
+    public class WeatherDetailsViewModel : MvxViewModel<Forecast>
     {
-        public IWeatherService _WeatherService;
-        public WeatherDetailsViewModel(WeatherService weatherService)
+       
+        
+
+        private String WeatherCondition;
+
+        public WeatherDetailsViewModel()
         {
-            _WeatherService = weatherService;
-           // Getweather = new MvxAsyncCommand(async () => await _WeatherService.FetchWeather() );
         }
 
         // Init and Start are important parts of MvvmCross' CIRS ViewModel lifecycle
@@ -29,10 +31,9 @@ namespace OpenWeather.core.ViewModels
             return base.Initialize();
         }
 
-        public override void Prepare()
+        public override void Prepare(Forecast parameter)
         {
-
-            base.Prepare();
+            WeatherDetails = PrepareWeatherList(parameter);
         }
         public override void Start()
         {
@@ -42,7 +43,9 @@ namespace OpenWeather.core.ViewModels
         {
             
             List<WeatherItem> ItemList = new List<WeatherItem>();
+            WeatherIconUrl = "http://openweathermap.org/img/w/" + result.Weather[0].Icon.ToString() + ".png";
 
+            WeatherLocation = "Weather in " + result.Name + "," +result.Sys.Country.ToUpper();
             ItemList.Add(new WeatherItem("Wind", GetWindRating(result.Wind.Speed) + " " + result.Wind.Speed + " m/s \n " + GetWindDirection(result.Wind.Deg) + " " + result.Wind.Deg + " deg"));
             ItemList.Add(new WeatherItem("Cloudiness", result.Weather[0].Description));
             ItemList.Add(new WeatherItem("Presure", result.Main.Pressure.ToString() + " hpa"));
@@ -65,10 +68,42 @@ namespace OpenWeather.core.ViewModels
             get => _weatherDetails;
             set
             {
-                SetProperty(ref _weatherDetails, value);
+                _weatherDetails = value;
+                RaisePropertyChanged(() => WeatherDetails);
+            }
+        }
+        private String _weatherIconUrl;
+        public String WeatherIconUrl
+        {
+            get => _weatherIconUrl;
+            set
+            {
+                _weatherIconUrl = value;
+                RaisePropertyChanged(() => WeatherIconUrl);
             }
         }
 
+        public String _weatherTemprature;
+        public String WeatherTemprature
+        {
+            get =>_weatherTemprature;
+            set
+            {
+                _weatherTemprature = value;
+                RaisePropertyChanged(() => WeatherTemprature);
+            }     
+        }
+
+        public String _weatherLocation;
+        public String WeatherLocation
+        {
+            get => _weatherLocation;
+            set
+            {
+                _weatherTemprature = value;
+                RaisePropertyChanged(() => WeatherLocation);
+            }
+        }
 
         private IMvxAsyncCommand Getweather { get; set; }
 
@@ -199,5 +234,7 @@ namespace OpenWeather.core.ViewModels
             }
             return windRating;
         }
+
+     
     }
 }

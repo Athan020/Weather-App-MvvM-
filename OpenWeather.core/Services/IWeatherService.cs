@@ -10,7 +10,6 @@ namespace OpenWeather.core.Services
     {
 
          Task<Forecast> FetchWeather(String query);
-
        // string GetWindRating(double windspeed);
 
 //        string GetWindDirection(double windDeg);

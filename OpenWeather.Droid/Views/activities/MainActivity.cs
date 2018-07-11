@@ -1,5 +1,6 @@
 ﻿using OpenWeather.core.ViewModels;
 using Android.App;
+using MvvmCross;
 
 namespace OpenWeather.Droid.Views.activities
 {

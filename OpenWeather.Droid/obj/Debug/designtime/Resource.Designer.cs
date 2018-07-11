@@ -206,6 +206,42 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7F040022
 			public const int activityChooserViewStyle = 2130968610;
 			
+			// aapt resource value: 0x7F110005
+			public const int ahBarColor = 2131820549;
+			
+			// aapt resource value: 0x7F110013
+			public const int ahBarLength = 2131820563;
+			
+			// aapt resource value: 0x7F110012
+			public const int ahBarWidth = 2131820562;
+			
+			// aapt resource value: 0x7F110010
+			public const int ahCircleColor = 2131820560;
+			
+			// aapt resource value: 0x7F110009
+			public const int ahDelayMillis = 2131820553;
+			
+			// aapt resource value: 0x7F110011
+			public const int ahRadius = 2131820561;
+			
+			// aapt resource value: 0x7F110006
+			public const int ahRimColor = 2131820550;
+			
+			// aapt resource value: 0x7F110007
+			public const int ahRimWidth = 2131820551;
+			
+			// aapt resource value: 0x7F110008
+			public const int ahSpinSpeed = 2131820552;
+			
+			// aapt resource value: 0x7F110002
+			public const int ahText = 2131820546;
+			
+			// aapt resource value: 0x7F110003
+			public const int ahTextColor = 2131820547;
+			
+			// aapt resource value: 0x7F110004
+			public const int ahTextSize = 2131820548;
+			
 			// aapt resource value: 0x7F040023
 			public const int alertDialogButtonGroupStyle = 2130968611;
 			
@@ -899,23 +935,23 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7F0400D0
 			public const int multiChoiceItemLayout = 2130968784;
 			
-			// aapt resource value: 0x7F110002
-			public const int MvxBind = 2131820546;
+			// aapt resource value: 0x7F110014
+			public const int MvxBind = 2131820564;
 			
-			// aapt resource value: 0x7F110006
-			public const int MvxDropDownItemTemplate = 2131820550;
+			// aapt resource value: 0x7F110018
+			public const int MvxDropDownItemTemplate = 2131820568;
 			
-			// aapt resource value: 0x7F110007
-			public const int MvxGroupItemTemplate = 2131820551;
+			// aapt resource value: 0x7F110019
+			public const int MvxGroupItemTemplate = 2131820569;
 			
-			// aapt resource value: 0x7F110005
-			public const int MvxItemTemplate = 2131820549;
+			// aapt resource value: 0x7F110017
+			public const int MvxItemTemplate = 2131820567;
 			
-			// aapt resource value: 0x7F110003
-			public const int MvxLang = 2131820547;
+			// aapt resource value: 0x7F110015
+			public const int MvxLang = 2131820565;
 			
-			// aapt resource value: 0x7F110004
-			public const int MvxTemplate = 2131820548;
+			// aapt resource value: 0x7F110016
+			public const int MvxTemplate = 2131820566;
 			
 			// aapt resource value: 0x7F0400D1
 			public const int navigationContentDescription = 2130968785;
@@ -2445,6 +2481,12 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7F010004
 			public const int icon = 2130771972;
 			
+			// aapt resource value: 0x7F010007
+			public const int ic_errorstatus = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int ic_successstatus = 2130771976;
+			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
@@ -2483,6 +2525,12 @@ namespace OpenWeather.Droid
 			
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
+			
+			// aapt resource value: 0x7F010005
+			public const int roundedbg = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int roundedbgdark = 2130771974;
 			
 			// aapt resource value: 0x7F010002
 			public const int rounded_buttons = 2130771970;
@@ -2756,6 +2804,15 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
+			// aapt resource value: 0x7F020019
+			public const int loadingImage = 2130837529;
+			
+			// aapt resource value: 0x7F020017
+			public const int loadingProgressBar = 2130837527;
+			
+			// aapt resource value: 0x7F020020
+			public const int loadingProgressWheel = 2130837536;
+			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
 			
@@ -2771,11 +2828,11 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7F0C0046
 			public const int multiply = 2131492934;
 			
-			// aapt resource value: 0x7F020017
-			public const int MvvmCrossTagId = 2130837527;
+			// aapt resource value: 0x7F020021
+			public const int MvvmCrossTagId = 2130837537;
 			
-			// aapt resource value: 0x7F020018
-			public const int MvxBindingTagUnique = 2130837528;
+			// aapt resource value: 0x7F020022
+			public const int MvxBindingTagUnique = 2130837538;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
@@ -2974,6 +3031,9 @@ namespace OpenWeather.Droid
 			
 			// aapt resource value: 0x7F020003
 			public const int textView = 2130837507;
+			
+			// aapt resource value: 0x7F020018
+			public const int textViewStatus = 2130837528;
 			
 			// aapt resource value: 0x7F020013
 			public const int textview_toolbar_title = 2130837523;
@@ -3232,6 +3292,15 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
+			// aapt resource value: 0x7F030007
+			public const int loading = 2130903047;
+			
+			// aapt resource value: 0x7F030008
+			public const int loadingimage = 2130903048;
+			
+			// aapt resource value: 0x7F030009
+			public const int loadingprogress = 2130903049;
+			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
 			
@@ -3466,8 +3535,8 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7F080015
 			public const int cloudness = 2131230741;
 			
-			// aapt resource value: 0x7F080019
-			public const int fab_scroll_shrink_grow_autohide_behavior = 2131230745;
+			// aapt resource value: 0x7F080020
+			public const int fab_scroll_shrink_grow_autohide_behavior = 2131230752;
 			
 			// aapt resource value: 0x7F080010
 			public const int geocords = 2131230736;
@@ -3480,6 +3549,9 @@ namespace OpenWeather.Droid
 			
 			// aapt resource value: 0x7F080018
 			public const int icon_for_weather = 2131230744;
+			
+			// aapt resource value: 0x7F080019
+			public const int library_name = 2131230745;
 			
 			// aapt resource value: 0x7F150021
 			public const int password_toggle_content_description = 2132082721;
@@ -3514,8 +3586,8 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7F080004
 			public const int toolbar_text = 2131230724;
 			
-			// aapt resource value: 0x7F080020
-			public const int view_scroll_translation_autohide_behavior = 2131230752;
+			// aapt resource value: 0x7F080021
+			public const int view_scroll_translation_autohide_behavior = 2131230753;
 			
 			// aapt resource value: 0x7F080017
 			public const int weather_in_cape_town_za = 2131230743;
@@ -4747,11 +4819,11 @@ namespace OpenWeather.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F100196
-			public const int ActionBarLayout_android_layout_gravity = 2131755414;
+			// aapt resource value: 0x7F100209
+			public const int ActionBarLayout_android_layout_gravity = 2131755529;
 			
-			// aapt resource value: 0x7F100166
-			public const int ActionBar_background = 2131755366;
+			// aapt resource value: 0x7F100179
+			public const int ActionBar_background = 2131755385;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -4840,8 +4912,8 @@ namespace OpenWeather.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F100198
-			public const int ActionMenuItemView_android_minWidth = 2131755416;
+			// aapt resource value: 0x7F100211
+			public const int ActionMenuItemView_android_minWidth = 2131755537;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -4851,8 +4923,8 @@ namespace OpenWeather.Droid
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F100200
-			public const int ActionMode_background = 2131755520;
+			// aapt resource value: 0x7F100213
+			public const int ActionMode_background = 2131755539;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -4873,8 +4945,8 @@ namespace OpenWeather.Droid
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F100207
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131755527;
+			// aapt resource value: 0x7F100220
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131755552;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -4888,8 +4960,8 @@ namespace OpenWeather.Droid
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F100210
-			public const int AlertDialog_android_layout = 2131755536;
+			// aapt resource value: 0x7F100223
+			public const int AlertDialog_android_layout = 2131755555;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -4920,14 +4992,14 @@ namespace OpenWeather.Droid
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F100224
-			public const int AppBarLayoutStates_state_collapsed = 2131755556;
+			// aapt resource value: 0x7F100237
+			public const int AppBarLayoutStates_state_collapsed = 2131755575;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F100218
-			public const int AppBarLayout_android_background = 2131755544;
+			// aapt resource value: 0x7F100231
+			public const int AppBarLayout_android_background = 2131755569;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -4945,8 +5017,8 @@ namespace OpenWeather.Droid
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F100227
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131755559;
+			// aapt resource value: 0x7F100240
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131755584;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -4957,8 +5029,8 @@ namespace OpenWeather.Droid
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F100230
-			public const int AppCompatImageView_android_src = 2131755568;
+			// aapt resource value: 0x7F100243
+			public const int AppCompatImageView_android_src = 2131755587;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -4975,8 +5047,8 @@ namespace OpenWeather.Droid
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F100235
-			public const int AppCompatSeekBar_android_thumb = 2131755573;
+			// aapt resource value: 0x7F100248
+			public const int AppCompatSeekBar_android_thumb = 2131755592;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -4996,8 +5068,8 @@ namespace OpenWeather.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F100240
-			public const int AppCompatTextHelper_android_drawableBottom = 2131755584;
+			// aapt resource value: 0x7F100253
+			public const int AppCompatTextHelper_android_drawableBottom = 2131755603;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -5027,8 +5099,8 @@ namespace OpenWeather.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F100248
-			public const int AppCompatTextView_android_textAppearance = 2131755592;
+			// aapt resource value: 0x7F100261
+			public const int AppCompatTextView_android_textAppearance = 2131755617;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -5172,8 +5244,8 @@ namespace OpenWeather.Droid
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F100257
-			public const int AppCompatTheme_actionBarDivider = 2131755607;
+			// aapt resource value: 0x7F100270
+			public const int AppCompatTheme_actionBarDivider = 2131755632;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -5536,8 +5608,8 @@ namespace OpenWeather.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F100377
-			public const int BottomNavigationView_elevation = 2131755895;
+			// aapt resource value: 0x7F100390
+			public const int BottomNavigationView_elevation = 2131755920;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -5556,8 +5628,8 @@ namespace OpenWeather.Droid
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F100383
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131755907;
+			// aapt resource value: 0x7F100396
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131755926;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -5568,8 +5640,8 @@ namespace OpenWeather.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F100387
-			public const int ButtonBarLayout_allowStacking = 2131755911;
+			// aapt resource value: 0x7F100400
+			public const int ButtonBarLayout_allowStacking = 2131756032;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130968658,
@@ -5589,8 +5661,8 @@ namespace OpenWeather.Droid
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F100389
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131755913;
+			// aapt resource value: 0x7F100402
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131756034;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -5623,8 +5695,8 @@ namespace OpenWeather.Droid
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F100406
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131756038;
+			// aapt resource value: 0x7F100419
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131756057;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -5652,8 +5724,8 @@ namespace OpenWeather.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F100409
-			public const int ColorStateListItem_alpha = 2131756041;
+			// aapt resource value: 0x7F100422
+			public const int ColorStateListItem_alpha = 2131756066;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -5666,8 +5738,8 @@ namespace OpenWeather.Droid
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F100413
-			public const int CompoundButton_android_button = 2131756051;
+			// aapt resource value: 0x7F100426
+			public const int CompoundButton_android_button = 2131756070;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -5749,8 +5821,8 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x3
 			public const int ConstraintLayout_Layout_android_minWidth = 3;
 			
-			// aapt resource value: 0x7F100031
-			public const int ConstraintLayout_Layout_android_orientation = 2131755057;
+			// aapt resource value: 0x7F100044
+			public const int ConstraintLayout_Layout_android_orientation = 2131755076;
 			
 			// aapt resource value: 0x5
 			public const int ConstraintLayout_Layout_barrierAllowsGoneWidgets = 5;
@@ -5921,8 +5993,8 @@ namespace OpenWeather.Droid
 					2130771973,
 					2130771974};
 			
-			// aapt resource value: 0x7F100088
-			public const int ConstraintLayout_placeholder_content = 2131755144;
+			// aapt resource value: 0x7F100101
+			public const int ConstraintLayout_placeholder_content = 2131755265;
 			
 			// aapt resource value: 0x1
 			public const int ConstraintLayout_placeholder_emptyVisibility = 1;
@@ -6034,8 +6106,8 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x3
 			public const int ConstraintSet_android_layout_width = 3;
 			
-			// aapt resource value: 0x7F100102
-			public const int ConstraintSet_android_orientation = 2131755266;
+			// aapt resource value: 0x7F100115
+			public const int ConstraintSet_android_orientation = 2131755285;
 			
 			// aapt resource value: 0x16
 			public const int ConstraintSet_android_rotation = 22;
@@ -6221,8 +6293,8 @@ namespace OpenWeather.Droid
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F100417
-			public const int CoordinatorLayout_keylines = 2131756055;
+			// aapt resource value: 0x7F100430
+			public const int CoordinatorLayout_keylines = 2131756080;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -6233,8 +6305,8 @@ namespace OpenWeather.Droid
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F100420
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131756064;
+			// aapt resource value: 0x7F100433
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131756083;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -6262,8 +6334,8 @@ namespace OpenWeather.Droid
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F100428
-			public const int DesignTheme_bottomSheetDialogTheme = 2131756072;
+			// aapt resource value: 0x7F100441
+			public const int DesignTheme_bottomSheetDialogTheme = 2131756097;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -6281,8 +6353,8 @@ namespace OpenWeather.Droid
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F100432
-			public const int DrawerArrowToggle_arrowHeadLength = 2131756082;
+			// aapt resource value: 0x7F100445
+			public const int DrawerArrowToggle_arrowHeadLength = 2131756101;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -6315,8 +6387,8 @@ namespace OpenWeather.Droid
 					2130968816,
 					2130968911};
 			
-			// aapt resource value: 0x7F100441
-			public const int FloatingActionButton_backgroundTint = 2131756097;
+			// aapt resource value: 0x7F100454
+			public const int FloatingActionButton_backgroundTint = 2131756116;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -6324,8 +6396,8 @@ namespace OpenWeather.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F100450
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131756112;
+			// aapt resource value: 0x7F100463
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131756131;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -6361,8 +6433,8 @@ namespace OpenWeather.Droid
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F100020
-			public const int FontFamilyFont_android_font = 2131755040;
+			// aapt resource value: 0x7F100033
+			public const int FontFamilyFont_android_font = 2131755059;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -6379,8 +6451,8 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F100013
-			public const int FontFamily_fontProviderAuthority = 2131755027;
+			// aapt resource value: 0x7F100026
+			public const int FontFamily_fontProviderAuthority = 2131755046;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -6402,8 +6474,8 @@ namespace OpenWeather.Droid
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F100452
-			public const int ForegroundLinearLayout_android_foreground = 2131756114;
+			// aapt resource value: 0x7F100465
+			public const int ForegroundLinearLayout_android_foreground = 2131756133;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -6414,8 +6486,8 @@ namespace OpenWeather.Droid
 			public static int[] LinearConstraintLayout = new int[] {
 					16842948};
 			
-			// aapt resource value: 0x7F100164
-			public const int LinearConstraintLayout_android_orientation = 2131755364;
+			// aapt resource value: 0x7F100177
+			public const int LinearConstraintLayout_android_orientation = 2131755383;
 			
 			public static int[] LinearLayoutCompat = new int[] {
 					16843046,
@@ -6428,8 +6500,8 @@ namespace OpenWeather.Droid
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F100456
-			public const int LinearLayoutCompat_android_baselineAligned = 2131756118;
+			// aapt resource value: 0x7F100469
+			public const int LinearLayoutCompat_android_baselineAligned = 2131756137;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -6455,8 +6527,8 @@ namespace OpenWeather.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F100466
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131756134;
+			// aapt resource value: 0x7F100479
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131756153;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -6477,8 +6549,8 @@ namespace OpenWeather.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F100471
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131756145;
+			// aapt resource value: 0x7F100484
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131756164;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -6491,8 +6563,8 @@ namespace OpenWeather.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F100474
-			public const int MenuGroup_android_checkableBehavior = 2131756148;
+			// aapt resource value: 0x7F100487
+			public const int MenuGroup_android_checkableBehavior = 2131756167;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -6534,8 +6606,8 @@ namespace OpenWeather.Droid
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F100481
-			public const int MenuItem_actionLayout = 2131756161;
+			// aapt resource value: 0x7F100494
+			public const int MenuItem_actionLayout = 2131756180;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -6614,8 +6686,8 @@ namespace OpenWeather.Droid
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F100505
-			public const int MenuView_android_headerBackground = 2131756293;
+			// aapt resource value: 0x7F100518
+			public const int MenuView_android_headerBackground = 2131756312;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -6645,33 +6717,33 @@ namespace OpenWeather.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F100002
-			public const int MvxBinding_MvxBind = 2131755010;
+			// aapt resource value: 0x7F100015
+			public const int MvxBinding_MvxBind = 2131755029;
 			
-			// aapt resource value: 0x7F100003
-			public const int MvxBinding_MvxLang = 2131755011;
+			// aapt resource value: 0x7F100016
+			public const int MvxBinding_MvxLang = 2131755030;
 			
 			public static int[] MvxControl = new int[] {
 					0};
 			
-			// aapt resource value: 0x7F100005
-			public const int MvxControl_MvxTemplate = 2131755013;
+			// aapt resource value: 0x7F100018
+			public const int MvxControl_MvxTemplate = 2131755032;
 			
 			public static int[] MvxExpandableListView = new int[] {
 					0};
 			
-			// aapt resource value: 0x7F100010
-			public const int MvxExpandableListView_MvxGroupItemTemplate = 2131755024;
+			// aapt resource value: 0x7F100023
+			public const int MvxExpandableListView_MvxGroupItemTemplate = 2131755043;
 			
 			public static int[] MvxListView = new int[] {
 					0,
 					0};
 			
-			// aapt resource value: 0x7F100008
-			public const int MvxListView_MvxDropDownItemTemplate = 2131755016;
+			// aapt resource value: 0x7F100021
+			public const int MvxListView_MvxDropDownItemTemplate = 2131755041;
 			
-			// aapt resource value: 0x7F100007
-			public const int MvxListView_MvxItemTemplate = 2131755015;
+			// aapt resource value: 0x7F100020
+			public const int MvxListView_MvxItemTemplate = 2131755040;
 			
 			public static int[] NavigationView = new int[] {
 					16842964,
@@ -6685,8 +6757,8 @@ namespace OpenWeather.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F100515
-			public const int NavigationView_android_background = 2131756309;
+			// aapt resource value: 0x7F100528
+			public const int NavigationView_android_background = 2131756328;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -6723,11 +6795,11 @@ namespace OpenWeather.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F100530
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131756336;
+			// aapt resource value: 0x7F100543
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131756355;
 			
-			// aapt resource value: 0x7F100526
-			public const int PopupWindow_android_popupAnimationStyle = 2131756326;
+			// aapt resource value: 0x7F100539
+			public const int PopupWindow_android_popupAnimationStyle = 2131756345;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -6735,12 +6807,62 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x2
 			public const int PopupWindow_overlapAnchor = 2;
 			
+			public static int[] ProgressWheel = new int[] {
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0};
+			
+			// aapt resource value: 0x7F100005
+			public const int ProgressWheel_ahBarColor = 2131755013;
+			
+			// aapt resource value: 0x7F100013
+			public const int ProgressWheel_ahBarLength = 2131755027;
+			
+			// aapt resource value: 0x7F100012
+			public const int ProgressWheel_ahBarWidth = 2131755026;
+			
+			// aapt resource value: 0x7F100010
+			public const int ProgressWheel_ahCircleColor = 2131755024;
+			
+			// aapt resource value: 0x7F100009
+			public const int ProgressWheel_ahDelayMillis = 2131755017;
+			
+			// aapt resource value: 0x7F100011
+			public const int ProgressWheel_ahRadius = 2131755025;
+			
+			// aapt resource value: 0x7F100006
+			public const int ProgressWheel_ahRimColor = 2131755014;
+			
+			// aapt resource value: 0x7F100007
+			public const int ProgressWheel_ahRimWidth = 2131755015;
+			
+			// aapt resource value: 0x7F100008
+			public const int ProgressWheel_ahSpinSpeed = 2131755016;
+			
+			// aapt resource value: 0x7F100002
+			public const int ProgressWheel_ahText = 2131755010;
+			
+			// aapt resource value: 0x7F100003
+			public const int ProgressWheel_ahTextColor = 2131755011;
+			
+			// aapt resource value: 0x7F100004
+			public const int ProgressWheel_ahTextSize = 2131755012;
+			
 			public static int[] RecycleListView = new int[] {
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F100532
-			public const int RecycleListView_paddingBottomNoButtons = 2131756338;
+			// aapt resource value: 0x7F100545
+			public const int RecycleListView_paddingBottomNoButtons = 2131756357;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -6758,8 +6880,8 @@ namespace OpenWeather.Droid
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F100535
-			public const int RecyclerView_android_descendantFocusability = 2131756341;
+			// aapt resource value: 0x7F100548
+			public const int RecyclerView_android_descendantFocusability = 2131756360;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -6794,14 +6916,14 @@ namespace OpenWeather.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F100547
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131756359;
+			// aapt resource value: 0x7F100560
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131756384;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F100549
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131756361;
+			// aapt resource value: 0x7F100562
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131756386;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -6822,8 +6944,8 @@ namespace OpenWeather.Droid
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F100551
-			public const int SearchView_android_focusable = 2131756369;
+			// aapt resource value: 0x7F100564
+			public const int SearchView_android_focusable = 2131756388;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -6878,8 +7000,8 @@ namespace OpenWeather.Droid
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F100569
-			public const int SnackbarLayout_android_maxWidth = 2131756393;
+			// aapt resource value: 0x7F100582
+			public const int SnackbarLayout_android_maxWidth = 2131756418;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -6894,8 +7016,8 @@ namespace OpenWeather.Droid
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F100573
-			public const int Spinner_android_dropDownWidth = 2131756403;
+			// aapt resource value: 0x7F100586
+			public const int Spinner_android_dropDownWidth = 2131756422;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -6925,8 +7047,8 @@ namespace OpenWeather.Droid
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F100579
-			public const int SwitchCompat_android_textOff = 2131756409;
+			// aapt resource value: 0x7F100592
+			public const int SwitchCompat_android_textOff = 2131756434;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -6972,8 +7094,8 @@ namespace OpenWeather.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F100594
-			public const int TabItem_android_icon = 2131756436;
+			// aapt resource value: 0x7F100607
+			public const int TabItem_android_icon = 2131756551;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -6999,8 +7121,8 @@ namespace OpenWeather.Droid
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F100598
-			public const int TabLayout_tabBackground = 2131756440;
+			// aapt resource value: 0x7F100611
+			public const int TabLayout_tabBackground = 2131756561;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -7062,8 +7184,8 @@ namespace OpenWeather.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F100615
-			public const int TextAppearance_android_fontFamily = 2131756565;
+			// aapt resource value: 0x7F100628
+			public const int TextAppearance_android_fontFamily = 2131756584;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -7119,8 +7241,8 @@ namespace OpenWeather.Droid
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F100629
-			public const int TextInputLayout_android_hint = 2131756585;
+			// aapt resource value: 0x7F100642
+			public const int TextInputLayout_android_hint = 2131756610;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -7198,8 +7320,8 @@ namespace OpenWeather.Droid
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F100646
-			public const int Toolbar_android_gravity = 2131756614;
+			// aapt resource value: 0x7F100659
+			public const int Toolbar_android_gravity = 2131756633;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -7297,8 +7419,8 @@ namespace OpenWeather.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F100682
-			public const int ViewBackgroundHelper_android_background = 2131756674;
+			// aapt resource value: 0x7F100695
+			public const int ViewBackgroundHelper_android_background = 2131756693;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -7311,8 +7433,8 @@ namespace OpenWeather.Droid
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F100686
-			public const int ViewStubCompat_android_id = 2131756678;
+			// aapt resource value: 0x7F100699
+			public const int ViewStubCompat_android_id = 2131756697;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -7320,8 +7442,8 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F100676
-			public const int View_android_focusable = 2131756662;
+			// aapt resource value: 0x7F100689
+			public const int View_android_focusable = 2131756681;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;

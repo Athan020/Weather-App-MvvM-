@@ -5,7 +5,7 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v26</xs:documentation>
-    <xs:documentation>6/23/2018 8:57:16 AM</xs:documentation>
+    <xs:documentation>7/11/2018 11:57:33 AM</xs:documentation>
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>
@@ -83,6 +83,7 @@
       <xs:element ref="TextureView" />
       <xs:element ref="ViewStub" />
       <xs:element ref="fragment" />
+      <xs:element ref="AndroidHUD.ProgressWheel" />
       <xs:element ref="MvvmCross.Platforms.Android.Binding.Views.MvxTimePicker" />
       <xs:element ref="MvvmCross.Platforms.Android.Binding.Views.MvxSpinner" />
       <xs:element ref="MvvmCross.Platforms.Android.Binding.Views.MvxRadioGroup" />
@@ -97,33 +98,6 @@
       <xs:element ref="MvvmCross.Droid.Support.V7.AppCompat.Widget.MvxAppCompatRadioGroup" />
       <xs:element ref="MvvmCross.Droid.Support.V7.AppCompat.Widget.MvxAppCompatAutoCompleteTextView" />
       <xs:element ref="MvvmCross.Droid.Support.V4.MvxSwipeRefreshLayout" />
-      <xs:element ref="android.support.v7.widget.RecyclerView" />
-      <xs:element ref="android.support.v7.widget.ViewStubCompat" />
-      <xs:element ref="android.support.v7.widget.SwitchCompat" />
-      <xs:element ref="android.support.v7.widget.SearchView" />
-      <xs:element ref="android.support.v7.widget.SearchView.SearchAutoComplete" />
-      <xs:element ref="android.support.v7.widget.ScrollingTabContainerView" />
-      <xs:element ref="android.support.v7.widget.MenuPopupWindow.MenuDropDownListView" />
-      <xs:element ref="android.support.v7.widget.LinearLayoutCompat" />
-      <xs:element ref="android.support.v7.widget.FitWindowsLinearLayout" />
-      <xs:element ref="android.support.v7.widget.FitWindowsFrameLayout" />
-      <xs:element ref="android.support.v7.widget.DropDownListView" />
-      <xs:element ref="android.support.v7.widget.DialogTitle" />
-      <xs:element ref="android.support.v7.widget.ContentFrameLayout" />
-      <xs:element ref="android.support.v7.widget.ButtonBarLayout" />
-      <xs:element ref="android.support.v7.widget.AlertDialogLayout" />
-      <xs:element ref="android.support.v7.widget.ActivityChooserView" />
-      <xs:element ref="android.support.v7.widget.ActivityChooserView.InnerLayout" />
-      <xs:element ref="android.support.v7.widget.ActionBarOverlayLayout" />
-      <xs:element ref="android.support.v7.widget.ActionBarContextView" />
-      <xs:element ref="android.support.v7.widget.ActionMenuView" />
-      <xs:element ref="android.support.v7.widget.ListViewCompat" />
-      <xs:element ref="android.support.v7.widget.ActionBarContainer" />
-      <xs:element ref="android.support.v7.widget.AbsActionBarView" />
-      <xs:element ref="android.support.v7.widget.Toolbar" />
-      <xs:element ref="android.support.v7.view.menu.ExpandedMenuView" />
-      <xs:element ref="android.support.v7.view.menu.ListMenuItemView" />
-      <xs:element ref="android.support.v7.view.menu.ActionMenuItemView" />
       <xs:element ref="android.support.constraint.Placeholder" />
       <xs:element ref="android.support.constraint.Guideline" />
       <xs:element ref="android.support.constraint.Group" />
@@ -131,16 +105,6 @@
       <xs:element ref="android.support.constraint.ConstraintLayout" />
       <xs:element ref="android.support.constraint.ConstraintHelper" />
       <xs:element ref="android.support.constraint.Barrier" />
-      <xs:element ref="android.support.v4.widget.Space" />
-      <xs:element ref="android.support.v4.widget.SlidingPaneLayout" />
-      <xs:element ref="android.support.v4.widget.NestedScrollView" />
-      <xs:element ref="android.support.v4.widget.DrawerLayout" />
-      <xs:element ref="android.support.v4.widget.ContentLoadingProgressBar" />
-      <xs:element ref="android.support.v4.widget.SwipeRefreshLayout" />
-      <xs:element ref="android.support.v4.view.ViewPager" />
-      <xs:element ref="android.support.v4.view.PagerTitleStrip" />
-      <xs:element ref="android.support.v4.view.PagerTabStrip" />
-      <xs:element ref="android.support.v4.app.FragmentTabHost" />
       <xs:element ref="android.support.design.widget.TextInputEditText" />
       <xs:element ref="android.support.design.widget.TabItem" />
       <xs:element ref="android.support.design.widget.NavigationView" />
@@ -164,6 +128,43 @@
       <xs:element ref="android.support.design.internal.BaselineLayout" />
       <xs:element ref="android.support.design.internal.BottomNavigationItemView" />
       <xs:element ref="android.support.design.internal.NavigationMenuItemView" />
+      <xs:element ref="android.support.v4.widget.Space" />
+      <xs:element ref="android.support.v4.widget.SlidingPaneLayout" />
+      <xs:element ref="android.support.v4.widget.NestedScrollView" />
+      <xs:element ref="android.support.v4.widget.DrawerLayout" />
+      <xs:element ref="android.support.v4.widget.ContentLoadingProgressBar" />
+      <xs:element ref="android.support.v4.widget.SwipeRefreshLayout" />
+      <xs:element ref="android.support.v4.view.ViewPager" />
+      <xs:element ref="android.support.v4.view.PagerTitleStrip" />
+      <xs:element ref="android.support.v4.view.PagerTabStrip" />
+      <xs:element ref="android.support.v4.app.FragmentTabHost" />
+      <xs:element ref="android.support.v7.view.menu.ExpandedMenuView" />
+      <xs:element ref="android.support.v7.view.menu.ListMenuItemView" />
+      <xs:element ref="android.support.v7.view.menu.ActionMenuItemView" />
+      <xs:element ref="android.support.v7.widget.ViewStubCompat" />
+      <xs:element ref="android.support.v7.widget.SwitchCompat" />
+      <xs:element ref="android.support.v7.widget.SearchView" />
+      <xs:element ref="android.support.v7.widget.SearchView.SearchAutoComplete" />
+      <xs:element ref="android.support.v7.widget.ScrollingTabContainerView" />
+      <xs:element ref="android.support.v7.widget.MenuPopupWindow.MenuDropDownListView" />
+      <xs:element ref="android.support.v7.widget.LinearLayoutCompat" />
+      <xs:element ref="android.support.v7.widget.FitWindowsLinearLayout" />
+      <xs:element ref="android.support.v7.widget.FitWindowsFrameLayout" />
+      <xs:element ref="android.support.v7.widget.DropDownListView" />
+      <xs:element ref="android.support.v7.widget.DialogTitle" />
+      <xs:element ref="android.support.v7.widget.ContentFrameLayout" />
+      <xs:element ref="android.support.v7.widget.ButtonBarLayout" />
+      <xs:element ref="android.support.v7.widget.AlertDialogLayout" />
+      <xs:element ref="android.support.v7.widget.ActivityChooserView" />
+      <xs:element ref="android.support.v7.widget.ActivityChooserView.InnerLayout" />
+      <xs:element ref="android.support.v7.widget.ActionBarOverlayLayout" />
+      <xs:element ref="android.support.v7.widget.ActionBarContextView" />
+      <xs:element ref="android.support.v7.widget.ActionMenuView" />
+      <xs:element ref="android.support.v7.widget.ListViewCompat" />
+      <xs:element ref="android.support.v7.widget.ActionBarContainer" />
+      <xs:element ref="android.support.v7.widget.AbsActionBarView" />
+      <xs:element ref="android.support.v7.widget.Toolbar" />
+      <xs:element ref="android.support.v7.widget.RecyclerView" />
       <xs:element ref="include" />
     </xs:choice>
   </xs:group>
@@ -309,17 +310,6 @@
     <xs:attribute ref="tools:visibility" />
     <xs:attribute ref="android:layout_width" />
     <xs:attribute ref="android:layout_height" />
-    <xs:attribute ref="android:layout_weight" />
-    <xs:attribute ref="android:layout_gravity" />
-    <xs:attribute ref="android:layout_margin" />
-    <xs:attribute ref="android:layout_marginLeft" />
-    <xs:attribute ref="android:layout_marginTop" />
-    <xs:attribute ref="android:layout_marginRight" />
-    <xs:attribute ref="android:layout_marginBottom" />
-    <xs:attribute ref="android:layout_marginStart" />
-    <xs:attribute ref="android:layout_marginEnd" />
-    <xs:attribute ref="android:layout_marginHorizontal" />
-    <xs:attribute ref="android:layout_marginVertical" />
     <xs:attribute ref="android:style" />
   </xs:complexType>
   <xs:element name="ActionMenuView" type="ActionMenuView">
@@ -1499,18 +1489,30 @@
     <xs:attribute ref="tools:layout" />
     <xs:attribute ref="android:layout_width" />
     <xs:attribute ref="android:layout_height" />
-    <xs:attribute ref="android:layout_weight" />
-    <xs:attribute ref="android:layout_gravity" />
-    <xs:attribute ref="android:layout_margin" />
-    <xs:attribute ref="android:layout_marginLeft" />
-    <xs:attribute ref="android:layout_marginTop" />
-    <xs:attribute ref="android:layout_marginRight" />
-    <xs:attribute ref="android:layout_marginBottom" />
-    <xs:attribute ref="android:layout_marginStart" />
-    <xs:attribute ref="android:layout_marginEnd" />
-    <xs:attribute ref="android:layout_marginHorizontal" />
-    <xs:attribute ref="android:layout_marginVertical" />
     <xs:attribute ref="android:style" />
+  </xs:complexType>
+  <xs:element name="AndroidHUD.ProgressWheel" type="AndroidHUD.ProgressWheel">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: AndroidHUD.ProgressWheel</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="AndroidHUD.ProgressWheel">
+    <xs:complexContent mixed="false">
+      <xs:extension base="View">
+        <xs:attribute ref="app:ahText" />
+        <xs:attribute ref="app:ahTextColor" />
+        <xs:attribute ref="app:ahTextSize" />
+        <xs:attribute ref="app:ahBarColor" />
+        <xs:attribute ref="app:ahRimColor" />
+        <xs:attribute ref="app:ahRimWidth" />
+        <xs:attribute ref="app:ahSpinSpeed" />
+        <xs:attribute ref="app:ahDelayMillis" />
+        <xs:attribute ref="app:ahCircleColor" />
+        <xs:attribute ref="app:ahRadius" />
+        <xs:attribute ref="app:ahBarWidth" />
+        <xs:attribute ref="app:ahBarLength" />
+      </xs:extension>
+    </xs:complexContent>
   </xs:complexType>
   <xs:element name="MvvmCross.Platforms.Android.Binding.Views.MvxTimePicker" type="MvvmCross.Platforms.Android.Binding.Views.MvxTimePicker">
     <xs:annotation>
@@ -1657,351 +1659,6 @@
       <xs:extension base="ViewGroup" />
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="android.support.v7.widget.RecyclerView" type="android.support.v7.widget.RecyclerView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.RecyclerView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.RecyclerView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup">
-        <xs:attribute ref="app:layoutManager" />
-        <xs:attribute ref="app:spanCount" />
-        <xs:attribute ref="app:reverseLayout" />
-        <xs:attribute ref="app:stackFromEnd" />
-        <xs:attribute ref="app:fastScrollEnabled" />
-        <xs:attribute ref="app:fastScrollVerticalThumbDrawable" />
-        <xs:attribute ref="app:fastScrollVerticalTrackDrawable" />
-        <xs:attribute ref="app:fastScrollHorizontalThumbDrawable" />
-        <xs:attribute ref="app:fastScrollHorizontalTrackDrawable" />
-        <xs:attribute ref="tools:listitem" />
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.ViewStubCompat" type="android.support.v7.widget.ViewStubCompat">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ViewStubCompat</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.ViewStubCompat">
-    <xs:complexContent mixed="false">
-      <xs:extension base="View" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.SwitchCompat" type="android.support.v7.widget.SwitchCompat">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.SwitchCompat</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.SwitchCompat">
-    <xs:complexContent mixed="false">
-      <xs:extension base="CompoundButton">
-        <xs:attribute ref="app:thumbTint" />
-        <xs:attribute ref="app:thumbTintMode" />
-        <xs:attribute ref="app:track" />
-        <xs:attribute ref="app:trackTint" />
-        <xs:attribute ref="app:trackTintMode" />
-        <xs:attribute ref="app:thumbTextPadding" />
-        <xs:attribute ref="app:switchTextAppearance" />
-        <xs:attribute ref="app:switchMinWidth" />
-        <xs:attribute ref="app:switchPadding" />
-        <xs:attribute ref="app:splitTrack" />
-        <xs:attribute ref="app:showText" />
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.SearchView" type="android.support.v7.widget.SearchView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.SearchView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.SearchView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup">
-        <xs:attribute ref="app:layout" />
-        <xs:attribute ref="app:iconifiedByDefault" />
-        <xs:attribute ref="app:queryHint" />
-        <xs:attribute ref="app:defaultQueryHint" />
-        <xs:attribute ref="app:closeIcon" />
-        <xs:attribute ref="app:goIcon" />
-        <xs:attribute ref="app:searchIcon" />
-        <xs:attribute ref="app:searchHintIcon" />
-        <xs:attribute ref="app:voiceIcon" />
-        <xs:attribute ref="app:commitIcon" />
-        <xs:attribute ref="app:suggestionRowLayout" />
-        <xs:attribute ref="app:queryBackground" />
-        <xs:attribute ref="app:submitBackground" />
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.SearchView.SearchAutoComplete" type="android.support.v7.widget.SearchView.SearchAutoComplete">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.SearchView+SearchAutoComplete</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.SearchView.SearchAutoComplete">
-    <xs:complexContent mixed="false">
-      <xs:extension base="AutoCompleteTextView" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.ScrollingTabContainerView" type="android.support.v7.widget.ScrollingTabContainerView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ScrollingTabContainerView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.ScrollingTabContainerView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="HorizontalScrollView" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.MenuPopupWindow.MenuDropDownListView" type="android.support.v7.widget.MenuPopupWindow.MenuDropDownListView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.MenuPopupWindow+MenuDropDownListView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.MenuPopupWindow.MenuDropDownListView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ListView" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.LinearLayoutCompat" type="android.support.v7.widget.LinearLayoutCompat">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.LinearLayoutCompat</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.LinearLayoutCompat">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup">
-        <xs:attribute ref="app:measureWithLargestChild" />
-        <xs:attribute ref="app:divider" />
-        <xs:attribute ref="app:showDividers" />
-        <xs:attribute ref="app:dividerPadding" />
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.FitWindowsLinearLayout" type="android.support.v7.widget.FitWindowsLinearLayout">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.FitWindowsLinearLayout</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.FitWindowsLinearLayout">
-    <xs:complexContent mixed="false">
-      <xs:extension base="LinearLayout" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.FitWindowsFrameLayout" type="android.support.v7.widget.FitWindowsFrameLayout">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.FitWindowsFrameLayout</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.FitWindowsFrameLayout">
-    <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.DropDownListView" type="android.support.v7.widget.DropDownListView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.DropDownListView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.DropDownListView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ListView" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.DialogTitle" type="android.support.v7.widget.DialogTitle">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.DialogTitle</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.DialogTitle">
-    <xs:complexContent mixed="false">
-      <xs:extension base="TextView" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.ContentFrameLayout" type="android.support.v7.widget.ContentFrameLayout">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ContentFrameLayout</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.ContentFrameLayout">
-    <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.ButtonBarLayout" type="android.support.v7.widget.ButtonBarLayout">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ButtonBarLayout</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.ButtonBarLayout">
-    <xs:complexContent mixed="false">
-      <xs:extension base="LinearLayout">
-        <xs:attribute ref="app:allowStacking" />
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.AlertDialogLayout" type="android.support.v7.widget.AlertDialogLayout">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.AlertDialogLayout</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.AlertDialogLayout">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.ActivityChooserView" type="android.support.v7.widget.ActivityChooserView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ActivityChooserView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.ActivityChooserView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup">
-        <xs:attribute ref="app:initialActivityCount" />
-        <xs:attribute ref="app:expandActivityOverflowButtonDrawable" />
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.ActivityChooserView.InnerLayout" type="android.support.v7.widget.ActivityChooserView.InnerLayout">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ActivityChooserView+InnerLayout</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.ActivityChooserView.InnerLayout">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.ActionBarOverlayLayout" type="android.support.v7.widget.ActionBarOverlayLayout">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ActionBarOverlayLayout</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.ActionBarOverlayLayout">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.ActionBarContextView" type="android.support.v7.widget.ActionBarContextView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ActionBarContextView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.ActionBarContextView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.ActionMenuView" type="android.support.v7.widget.ActionMenuView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ActionMenuView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.ActionMenuView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.ListViewCompat" type="android.support.v7.widget.ListViewCompat">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ListViewCompat</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.ListViewCompat">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ListView" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.ActionBarContainer" type="android.support.v7.widget.ActionBarContainer">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ActionBarContainer</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.ActionBarContainer">
-    <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.AbsActionBarView" type="android.support.v7.widget.AbsActionBarView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.AbsActionBarView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.AbsActionBarView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.widget.Toolbar" type="android.support.v7.widget.Toolbar">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.Toolbar</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.widget.Toolbar">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup">
-        <xs:attribute ref="app:titleTextAppearance" />
-        <xs:attribute ref="app:subtitleTextAppearance" />
-        <xs:attribute ref="app:title" />
-        <xs:attribute ref="app:subtitle" />
-        <xs:attribute ref="app:titleMargin" />
-        <xs:attribute ref="app:titleMarginStart" />
-        <xs:attribute ref="app:titleMarginEnd" />
-        <xs:attribute ref="app:titleMarginTop" />
-        <xs:attribute ref="app:titleMarginBottom" />
-        <xs:attribute ref="app:titleMargins" />
-        <xs:attribute ref="app:contentInsetStart" />
-        <xs:attribute ref="app:contentInsetEnd" />
-        <xs:attribute ref="app:contentInsetLeft" />
-        <xs:attribute ref="app:contentInsetRight" />
-        <xs:attribute ref="app:contentInsetStartWithNavigation" />
-        <xs:attribute ref="app:contentInsetEndWithActions" />
-        <xs:attribute ref="app:maxButtonHeight" />
-        <xs:attribute ref="app:buttonGravity" />
-        <xs:attribute ref="app:collapseIcon" />
-        <xs:attribute ref="app:collapseContentDescription" />
-        <xs:attribute ref="app:popupTheme" />
-        <xs:attribute ref="app:navigationIcon" />
-        <xs:attribute ref="app:navigationContentDescription" />
-        <xs:attribute ref="app:logo" />
-        <xs:attribute ref="app:logoDescription" />
-        <xs:attribute ref="app:titleTextColor" />
-        <xs:attribute ref="app:subtitleTextColor" />
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.view.menu.ExpandedMenuView" type="android.support.v7.view.menu.ExpandedMenuView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.View.Menu.ExpandedMenuView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.view.menu.ExpandedMenuView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ListView" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.view.menu.ListMenuItemView" type="android.support.v7.view.menu.ListMenuItemView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.View.Menu.ListMenuItemView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.view.menu.ListMenuItemView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="LinearLayout" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.view.menu.ActionMenuItemView" type="android.support.v7.view.menu.ActionMenuItemView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.View.Menu.ActionMenuItemView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.view.menu.ActionMenuItemView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="TextView" />
-    </xs:complexContent>
-  </xs:complexType>
   <xs:element name="android.support.constraint.Placeholder" type="android.support.constraint.Placeholder">
     <xs:annotation>
       <xs:documentation>Runtime Type: Android.Support.Constraints.Placeholder</xs:documentation>
@@ -2070,108 +1727,6 @@
   <xs:complexType name="android.support.constraint.Barrier">
     <xs:complexContent mixed="false">
       <xs:extension base="View" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v4.widget.Space" type="android.support.v4.widget.Space">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V4.Widget.Space</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v4.widget.Space">
-    <xs:complexContent mixed="false">
-      <xs:extension base="View" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v4.widget.SlidingPaneLayout" type="android.support.v4.widget.SlidingPaneLayout">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V4.Widget.SlidingPaneLayout</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v4.widget.SlidingPaneLayout">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v4.widget.NestedScrollView" type="android.support.v4.widget.NestedScrollView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V4.Widget.NestedScrollView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v4.widget.NestedScrollView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v4.widget.DrawerLayout" type="android.support.v4.widget.DrawerLayout">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V4.Widget.DrawerLayout</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v4.widget.DrawerLayout">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup">
-        <xs:attribute ref="tools:openDrawer" />
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v4.widget.ContentLoadingProgressBar" type="android.support.v4.widget.ContentLoadingProgressBar">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V4.Widget.ContentLoadingProgressBar</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v4.widget.ContentLoadingProgressBar">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ProgressBar" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v4.widget.SwipeRefreshLayout" type="android.support.v4.widget.SwipeRefreshLayout">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V4.Widget.SwipeRefreshLayout</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v4.widget.SwipeRefreshLayout">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v4.view.ViewPager" type="android.support.v4.view.ViewPager">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V4.View.ViewPager</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v4.view.ViewPager">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v4.view.PagerTitleStrip" type="android.support.v4.view.PagerTitleStrip">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V4.View.PagerTitleStrip</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v4.view.PagerTitleStrip">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v4.view.PagerTabStrip" type="android.support.v4.view.PagerTabStrip">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V4.View.PagerTabStrip</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v4.view.PagerTabStrip">
-    <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v4.app.FragmentTabHost" type="android.support.v4.app.FragmentTabHost">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V4.App.FragmentTabHost</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v4.app.FragmentTabHost">
-    <xs:complexContent mixed="false">
-      <xs:extension base="TabHost" />
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.design.widget.TextInputEditText" type="android.support.design.widget.TextInputEditText">
@@ -2487,6 +2042,453 @@
   <xs:complexType name="android.support.design.internal.NavigationMenuItemView">
     <xs:complexContent mixed="false">
       <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v4.widget.Space" type="android.support.v4.widget.Space">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V4.Widget.Space</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v4.widget.Space">
+    <xs:complexContent mixed="false">
+      <xs:extension base="View" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v4.widget.SlidingPaneLayout" type="android.support.v4.widget.SlidingPaneLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V4.Widget.SlidingPaneLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v4.widget.SlidingPaneLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v4.widget.NestedScrollView" type="android.support.v4.widget.NestedScrollView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V4.Widget.NestedScrollView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v4.widget.NestedScrollView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v4.widget.DrawerLayout" type="android.support.v4.widget.DrawerLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V4.Widget.DrawerLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v4.widget.DrawerLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="tools:openDrawer" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v4.widget.ContentLoadingProgressBar" type="android.support.v4.widget.ContentLoadingProgressBar">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V4.Widget.ContentLoadingProgressBar</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v4.widget.ContentLoadingProgressBar">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ProgressBar" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v4.widget.SwipeRefreshLayout" type="android.support.v4.widget.SwipeRefreshLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V4.Widget.SwipeRefreshLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v4.widget.SwipeRefreshLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v4.view.ViewPager" type="android.support.v4.view.ViewPager">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V4.View.ViewPager</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v4.view.ViewPager">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v4.view.PagerTitleStrip" type="android.support.v4.view.PagerTitleStrip">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V4.View.PagerTitleStrip</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v4.view.PagerTitleStrip">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v4.view.PagerTabStrip" type="android.support.v4.view.PagerTabStrip">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V4.View.PagerTabStrip</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v4.view.PagerTabStrip">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v4.app.FragmentTabHost" type="android.support.v4.app.FragmentTabHost">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V4.App.FragmentTabHost</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v4.app.FragmentTabHost">
+    <xs:complexContent mixed="false">
+      <xs:extension base="TabHost" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.view.menu.ExpandedMenuView" type="android.support.v7.view.menu.ExpandedMenuView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.View.Menu.ExpandedMenuView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.view.menu.ExpandedMenuView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ListView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.view.menu.ListMenuItemView" type="android.support.v7.view.menu.ListMenuItemView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.View.Menu.ListMenuItemView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.view.menu.ListMenuItemView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="LinearLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.view.menu.ActionMenuItemView" type="android.support.v7.view.menu.ActionMenuItemView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.View.Menu.ActionMenuItemView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.view.menu.ActionMenuItemView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="TextView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.ViewStubCompat" type="android.support.v7.widget.ViewStubCompat">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ViewStubCompat</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.ViewStubCompat">
+    <xs:complexContent mixed="false">
+      <xs:extension base="View" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.SwitchCompat" type="android.support.v7.widget.SwitchCompat">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.SwitchCompat</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.SwitchCompat">
+    <xs:complexContent mixed="false">
+      <xs:extension base="CompoundButton">
+        <xs:attribute ref="app:thumbTint" />
+        <xs:attribute ref="app:thumbTintMode" />
+        <xs:attribute ref="app:track" />
+        <xs:attribute ref="app:trackTint" />
+        <xs:attribute ref="app:trackTintMode" />
+        <xs:attribute ref="app:thumbTextPadding" />
+        <xs:attribute ref="app:switchTextAppearance" />
+        <xs:attribute ref="app:switchMinWidth" />
+        <xs:attribute ref="app:switchPadding" />
+        <xs:attribute ref="app:splitTrack" />
+        <xs:attribute ref="app:showText" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.SearchView" type="android.support.v7.widget.SearchView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.SearchView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.SearchView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="app:layout" />
+        <xs:attribute ref="app:iconifiedByDefault" />
+        <xs:attribute ref="app:queryHint" />
+        <xs:attribute ref="app:defaultQueryHint" />
+        <xs:attribute ref="app:closeIcon" />
+        <xs:attribute ref="app:goIcon" />
+        <xs:attribute ref="app:searchIcon" />
+        <xs:attribute ref="app:searchHintIcon" />
+        <xs:attribute ref="app:voiceIcon" />
+        <xs:attribute ref="app:commitIcon" />
+        <xs:attribute ref="app:suggestionRowLayout" />
+        <xs:attribute ref="app:queryBackground" />
+        <xs:attribute ref="app:submitBackground" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.SearchView.SearchAutoComplete" type="android.support.v7.widget.SearchView.SearchAutoComplete">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.SearchView+SearchAutoComplete</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.SearchView.SearchAutoComplete">
+    <xs:complexContent mixed="false">
+      <xs:extension base="AutoCompleteTextView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.ScrollingTabContainerView" type="android.support.v7.widget.ScrollingTabContainerView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ScrollingTabContainerView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.ScrollingTabContainerView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="HorizontalScrollView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.MenuPopupWindow.MenuDropDownListView" type="android.support.v7.widget.MenuPopupWindow.MenuDropDownListView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.MenuPopupWindow+MenuDropDownListView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.MenuPopupWindow.MenuDropDownListView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ListView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.LinearLayoutCompat" type="android.support.v7.widget.LinearLayoutCompat">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.LinearLayoutCompat</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.LinearLayoutCompat">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="app:measureWithLargestChild" />
+        <xs:attribute ref="app:divider" />
+        <xs:attribute ref="app:showDividers" />
+        <xs:attribute ref="app:dividerPadding" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.FitWindowsLinearLayout" type="android.support.v7.widget.FitWindowsLinearLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.FitWindowsLinearLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.FitWindowsLinearLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="LinearLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.FitWindowsFrameLayout" type="android.support.v7.widget.FitWindowsFrameLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.FitWindowsFrameLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.FitWindowsFrameLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.DropDownListView" type="android.support.v7.widget.DropDownListView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.DropDownListView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.DropDownListView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ListView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.DialogTitle" type="android.support.v7.widget.DialogTitle">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.DialogTitle</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.DialogTitle">
+    <xs:complexContent mixed="false">
+      <xs:extension base="TextView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.ContentFrameLayout" type="android.support.v7.widget.ContentFrameLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ContentFrameLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.ContentFrameLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.ButtonBarLayout" type="android.support.v7.widget.ButtonBarLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ButtonBarLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.ButtonBarLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="LinearLayout">
+        <xs:attribute ref="app:allowStacking" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.AlertDialogLayout" type="android.support.v7.widget.AlertDialogLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.AlertDialogLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.AlertDialogLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.ActivityChooserView" type="android.support.v7.widget.ActivityChooserView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ActivityChooserView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.ActivityChooserView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="app:initialActivityCount" />
+        <xs:attribute ref="app:expandActivityOverflowButtonDrawable" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.ActivityChooserView.InnerLayout" type="android.support.v7.widget.ActivityChooserView.InnerLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ActivityChooserView+InnerLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.ActivityChooserView.InnerLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.ActionBarOverlayLayout" type="android.support.v7.widget.ActionBarOverlayLayout">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ActionBarOverlayLayout</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.ActionBarOverlayLayout">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.ActionBarContextView" type="android.support.v7.widget.ActionBarContextView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ActionBarContextView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.ActionBarContextView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.ActionMenuView" type="android.support.v7.widget.ActionMenuView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ActionMenuView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.ActionMenuView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.ListViewCompat" type="android.support.v7.widget.ListViewCompat">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ListViewCompat</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.ListViewCompat">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ListView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.ActionBarContainer" type="android.support.v7.widget.ActionBarContainer">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.ActionBarContainer</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.ActionBarContainer">
+    <xs:complexContent mixed="false">
+      <xs:extension base="FrameLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.AbsActionBarView" type="android.support.v7.widget.AbsActionBarView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.AbsActionBarView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.AbsActionBarView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.Toolbar" type="android.support.v7.widget.Toolbar">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.Toolbar</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.Toolbar">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="app:titleTextAppearance" />
+        <xs:attribute ref="app:subtitleTextAppearance" />
+        <xs:attribute ref="app:title" />
+        <xs:attribute ref="app:subtitle" />
+        <xs:attribute ref="app:titleMargin" />
+        <xs:attribute ref="app:titleMarginStart" />
+        <xs:attribute ref="app:titleMarginEnd" />
+        <xs:attribute ref="app:titleMarginTop" />
+        <xs:attribute ref="app:titleMarginBottom" />
+        <xs:attribute ref="app:titleMargins" />
+        <xs:attribute ref="app:contentInsetStart" />
+        <xs:attribute ref="app:contentInsetEnd" />
+        <xs:attribute ref="app:contentInsetLeft" />
+        <xs:attribute ref="app:contentInsetRight" />
+        <xs:attribute ref="app:contentInsetStartWithNavigation" />
+        <xs:attribute ref="app:contentInsetEndWithActions" />
+        <xs:attribute ref="app:maxButtonHeight" />
+        <xs:attribute ref="app:buttonGravity" />
+        <xs:attribute ref="app:collapseIcon" />
+        <xs:attribute ref="app:collapseContentDescription" />
+        <xs:attribute ref="app:popupTheme" />
+        <xs:attribute ref="app:navigationIcon" />
+        <xs:attribute ref="app:navigationContentDescription" />
+        <xs:attribute ref="app:logo" />
+        <xs:attribute ref="app:logoDescription" />
+        <xs:attribute ref="app:titleTextColor" />
+        <xs:attribute ref="app:subtitleTextColor" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.widget.RecyclerView" type="android.support.v7.widget.RecyclerView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.RecyclerView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.widget.RecyclerView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="app:layoutManager" />
+        <xs:attribute ref="app:spanCount" />
+        <xs:attribute ref="app:reverseLayout" />
+        <xs:attribute ref="app:stackFromEnd" />
+        <xs:attribute ref="app:fastScrollEnabled" />
+        <xs:attribute ref="app:fastScrollVerticalThumbDrawable" />
+        <xs:attribute ref="app:fastScrollVerticalTrackDrawable" />
+        <xs:attribute ref="app:fastScrollHorizontalThumbDrawable" />
+        <xs:attribute ref="app:fastScrollHorizontalTrackDrawable" />
+        <xs:attribute ref="tools:listitem" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="include" type="include">
