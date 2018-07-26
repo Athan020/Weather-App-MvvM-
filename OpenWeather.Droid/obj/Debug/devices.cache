@@ -2,6 +2,10 @@
 <Devices>
   <Device id="emulator-5554">
     <ResultingAbi>x86</ResultingAbi>
-    <SdkVersion>25</SdkVersion>
+    <SdkVersion>27</SdkVersion>
+  </Device>
+  <Device id="BGV7N17A13001571">
+    <ResultingAbi>arm64-v8a</ResultingAbi>
+    <SdkVersion>24</SdkVersion>
   </Device>
 </Devices>

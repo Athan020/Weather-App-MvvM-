@@ -18,13 +18,13 @@
 /Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/bin/iPhoneSimulator/Debug/MvvmCross.Binding.pdb
 /Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/bin/iPhoneSimulator/Debug/MvvmCross.Binding.iOS.pdb
 /Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/bin/iPhoneSimulator/Debug/MvvmCross.Localization.pdb
-/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/OpenWeather.iOS.csprojResolveAssemblyReference.cache
-/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/OpenWeather.iOS.csproj.CoreCompileInputs.cache
-/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/OpenWeather.iOS.exe
-/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/OpenWeather.iOS.pdb
 /Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
 /Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
 /Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
 /Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
 /Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
 /Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/OpenWeather.iOS.csprojResolveAssemblyReference.cache
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/OpenWeather.iOS.csproj.CoreCompileInputs.cache
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/OpenWeather.iOS.exe
+/Users/athandile/Documents/Weather-App-MvvM-/OpenWeather.iOS/obj/iPhoneSimulator/Debug/OpenWeather.iOS.pdb

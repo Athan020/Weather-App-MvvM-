@@ -10,7 +10,6 @@ public abstract class BaseActivity_1
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"";
 		mono.android.Runtime.register ("OpenWeather.Droid.Views.activities.BaseActivity`1, OpenWeather.Droid", BaseActivity_1.class, __md_methods);
 	}
@@ -22,14 +21,6 @@ public abstract class BaseActivity_1
 		if (getClass () == BaseActivity_1.class)
 			mono.android.TypeManager.Activate ("OpenWeather.Droid.Views.activities.BaseActivity`1, OpenWeather.Droid", "", this, new java.lang.Object[] {  });
 	}
-
-
-	public void onCreate (android.os.Bundle p0)
-	{
-		n_onCreate (p0);
-	}
-
-	private native void n_onCreate (android.os.Bundle p0);
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

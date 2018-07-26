@@ -14,7 +14,7 @@ namespace OpenWeather.core.ViewModels
        
         
 
-        private String WeatherCondition;
+       // private String WeatherCondition;
 
         public WeatherDetailsViewModel()
         {
@@ -33,6 +33,7 @@ namespace OpenWeather.core.ViewModels
 
         public override void Prepare(Forecast parameter)
         {
+            Console.WriteLine(parameter.ToString());
             WeatherDetails = PrepareWeatherList(parameter);
         }
         public override void Start()
@@ -43,7 +44,11 @@ namespace OpenWeather.core.ViewModels
         {
             
             List<WeatherItem> ItemList = new List<WeatherItem>();
-            WeatherIconUrl = "http://openweathermap.org/img/w/" + result.Weather[0].Icon.ToString() + ".png";
+            WeatherIconUrl = "http://openweathermap.org/img/w/" + result.Weather[0].Icon + ".png";
+
+            WeatherTemprature = result.Main.Temp.ToString();
+           
+            WeatherForecast = result.Weather[0].Description;
 
             WeatherLocation = "Weather in " + result.Name + "," +result.Sys.Country.ToUpper();
             ItemList.Add(new WeatherItem("Wind", GetWindRating(result.Wind.Speed) + " " + result.Wind.Speed + " m/s \n " + GetWindDirection(result.Wind.Deg) + " " + result.Wind.Deg + " deg"));
@@ -102,6 +107,17 @@ namespace OpenWeather.core.ViewModels
             {
                 _weatherTemprature = value;
                 RaisePropertyChanged(() => WeatherLocation);
+            }
+        }
+
+        public String _weatherForecast;
+        public String WeatherForecast
+        {
+            get => _weatherForecast;
+            set
+            {
+                _weatherForecast = value;
+                RaisePropertyChanged(() => WeatherForecast);
             }
         }
 

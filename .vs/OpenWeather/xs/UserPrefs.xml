@@ -1,11 +1,17 @@
 ﻿<Properties StartupConfiguration="{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Weather-App-MvvM- Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OpenWeather.core/App.cs">
     <Files>
-      <File FileName="packages/MvvmCross.6.1.2/readme.txt" Line="42" Column="11" />
-      <File FileName="OpenWeather.core/Services/WeatherService.cs" Line="44" Column="1" />
-      <File FileName="Source Not Available" />
-      <File FileName="OpenWeather.iOS/Views/MainView.cs" Line="17" Column="9" />
-      <File FileName="Weather-App-MvvM- Status" />
+      <File FileName="packages/MvvmCross.6.1.2/readme.txt" Line="62" Column="14" />
+      <File FileName="OpenWeather.iOS/Views/MainView.cs" Line="22" Column="11" />
+      <File FileName="OpenWeather.Droid/Views/activities/MainActivity.cs" Line="19" Column="1" />
+      <File FileName="OpenWeather.core/ViewModels/MainViewModel.cs" Line="41" Column="14" />
+      <File FileName="OpenWeather.core/ViewModels/WeatherDetailsViewModel.cs" Line="57" Column="46" />
+      <File FileName="OpenWeather.Droid/Views/activities/WeatherDetailsActivity.cs" Line="13" Column="2" />
+      <File FileName="OpenWeather.Droid/Views/activities/BaseActivity.cs" Line="5" Column="1" />
+      <File FileName="OpenWeather.iOS/Views/MainView.xib" />
+      <File FileName="OpenWeather.iOS/Views/WeatherView.xib" />
+      <File FileName="OpenWeather.iOS/Views/WeatherView.cs" Line="1" Column="1" />
+      <File FileName="OpenWeather.core/App.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

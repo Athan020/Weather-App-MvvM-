@@ -14,14 +14,14 @@ namespace OpenWeather.core.ViewModels
     {
         private readonly IMvxNavigationService _navigationService;
         private readonly IWeatherService _weatherService;
-        //private readonly IUserDialogs _userDialog;
+       // private readonly IUserDialogs _userDialog;
 
 
         public MainViewModel(IMvxNavigationService navigationService, IWeatherService weatherService)
         {
             _navigationService = navigationService;
             _weatherService = weatherService;
-            //_userDialog = userDialogs;
+           // _userDialog = userDialogs;
           //  GetweatherCommand = new MvxAsyncCommand(FetchWeather);
 
         }
@@ -40,6 +40,9 @@ namespace OpenWeather.core.ViewModels
                 return getWeatherCommand ?? (getWeatherCommand = new MvxAsyncCommand(async () => await FetchWeather()));
             }
         }
+     
+
+     
 
        
 
@@ -47,20 +50,14 @@ namespace OpenWeather.core.ViewModels
         {
 
             var forecast = new Forecast();
-            Console.WriteLine("Got here ", CityName," yah");
-
+            Console.WriteLine("Got here ");
             try
-            {
+           {
                 forecast = await _weatherService.FetchWeather(CityName);
            }
             catch (Exception ex)
             {
-           //     var alert = _userDialog.AlertAsync(new AlertConfig
-            //    {
-             //       Title = "Oops.. ",
-              //      Message = "There was a problem trying to fetch your weather",
-               //     OkText = "Ok"
-              // });
+             
                Console.WriteLine(ex.Message);
             }
             Console.WriteLine(forecast.Base.ToString());
